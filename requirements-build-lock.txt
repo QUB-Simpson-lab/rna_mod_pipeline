@@ -1,0 +1,8 @@
+# Installer/build tooling tested for the release environment (no hashes).
+build==1.2.2.post1
+packaging==26.0
+pip==25.1.1
+pyproject_hooks==1.2.0
+setuptools==80.9.0
+tomli==2.2.1; python_version < "3.11"
+wheel==0.45.1

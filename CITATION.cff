@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated study if you use it."
+title: "RNA-modification RBP analysis pipeline"
+type: software
+version: 1.0.3
+repository-code: "https://github.com/QUB-Simpson-lab/rna_mod_pipeline"
+authors:
+  - family-names: "Zob"
+    given-names: "Alexandru"
+abstract: >-
+  A modular pipeline for RNA-modification site filtering, RBP overlap analysis,
+  cross-database comparison, expression integration, KnockRBP validation,
+  STRING analysis, and cross-modification comparison.

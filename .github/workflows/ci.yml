@@ -1,0 +1,89 @@
+name: pipeline-ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  PYTHONUTF8: "1"
+  QT_QPA_PLATFORM: offscreen
+
+jobs:
+  test:
+    name: ${{ matrix.os }} / Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: "3.10"
+          - os: ubuntu-latest
+            python: "3.12"
+          - os: windows-latest
+            python: "3.11"
+          - os: macos-latest
+            python: "3.11"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: |
+            requirements-build-lock.txt
+            requirements-lock.txt
+            requirements-gui-lock.txt
+      - name: Install tested build tools
+        run: python -m pip install --no-cache-dir -r requirements-build-lock.txt
+      - name: Install constrained package and GUI
+        run: >-
+          python -m pip install --no-cache-dir --no-build-isolation
+          -c requirements-lock.txt -c requirements-gui-lock.txt -e ".[gui]"
+      - name: Check dependency consistency
+        run: python -m pip check
+      - name: Run compact regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Smoke-test installed commands
+        run: |
+          rna-mod-gui --help
+          rna-mod-audit --help
+          rna-mod-doctor --help
+      - name: Run synthetic acceptance workflows
+        run: python scripts/prepare_acceptance_demo.py --workspace "../RNA synthetic acceptance" --run --skip-plots
+      - name: Check independently defined numerical answers
+        run: python scripts/check_acceptance_demo.py --workspace "../RNA synthetic acceptance" --skip-plots
+      - name: Preserve acceptance result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: acceptance-${{ matrix.os }}-python-${{ matrix.python }}
+          path: ../RNA synthetic acceptance/acceptance_check.json
+          if-no-files-found: warn
+
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-build-lock.txt
+      - name: Install build tools
+        run: python -m pip install --no-cache-dir -r requirements-build-lock.txt
+      - name: Build source and wheel distributions
+        run: python -m build
+      - name: Inspect distributions
+        run: |
+          python -m pip install --no-deps dist/*.whl
+          rna-mod-gui --help
+          rna-mod-audit --help
+          rna-mod-doctor --help
+          python -c "import rna_mod_pipeline; print(rna_mod_pipeline.__version__)"

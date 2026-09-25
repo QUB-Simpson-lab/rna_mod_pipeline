@@ -1,0 +1,4377 @@
+{
+  "schema_version": 1,
+  "measured_at_utc": "2026-09-08T18:19:33.842999+00:00",
+  "download_date": null,
+  "scope": "Exact local external-resource files; excludes raw reads, bedMethyl and patient data",
+  "provenance_note": "URLs copied from project RESOURCE_SETUP.md; download dates and unrecorded database releases unavailable",
+  "catalog": {
+    "path": "config/rbp_catalog.tsv",
+    "sha256": "b1e64ef3c8e51300d97767625109298cd8d488ff5303dd62ea6b08311ab095eb",
+    "versions": [
+      "2026-07-29"
+    ]
+  },
+  "sources": {
+    "reference": {
+      "build": "hg38/GRCh38; GENCODE v44 comprehensive CHR annotation",
+      "urls": [
+        "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz",
+        "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_44/gencode.v44.annotation.gtf.gz"
+      ]
+    },
+    "ornament": {
+      "urls": [
+        "https://rnabiology.ircm.qc.ca/oRNAment/downloads/"
+      ]
+    },
+    "encori": {
+      "urls": [
+        "https://rnasysu.com/encori/download.php"
+      ]
+    },
+    "postar3": {
+      "urls": [
+        "https://postar.ncrnalab.org/"
+      ]
+    },
+    "knockrbp": {
+      "urls": []
+    },
+    "expression": {
+      "urls": []
+    }
+  },
+  "group_counts": {
+    "encori": 281,
+    "expression": 2,
+    "knockrbp": 14,
+    "ornament": 134,
+    "postar3": 1,
+    "reference": 3
+  },
+  "total_bytes": 10039405035,
+  "files": [
+    {
+      "group": "encori",
+      "path": "data/ENCORI/A1CF.bed.gz",
+      "source_name": "A1CF",
+      "canonical_rbps": [
+        "A1CF"
+      ],
+      "bytes": 834,
+      "sha256": "689744f2f8392b47d13980c26fa4e4bc7b17d276c4e530868b2353aab45ad037"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/AATF.bed.gz",
+      "source_name": "AATF",
+      "canonical_rbps": [
+        "AATF"
+      ],
+      "bytes": 4186,
+      "sha256": "0107a11dd51791b7b18640cb1d417299992068eee56d033cb146db933f15cd3e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ABCF1.bed.gz",
+      "source_name": "ABCF1",
+      "canonical_rbps": [
+        "ABCF1"
+      ],
+      "bytes": 239,
+      "sha256": "70bc52a77d289135e9a5e4a05ba9d9ba727e414a0d6da99eb912bbe0e162c844"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ACIN1.bed.gz",
+      "source_name": "ACIN1",
+      "canonical_rbps": [
+        "ACIN1"
+      ],
+      "bytes": 170085,
+      "sha256": "4e4293c1289d067b8c1bb7bbe8bf8788e03f937c1240b8dacade8f75306cf28b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ADAR.bed.gz",
+      "source_name": "ADAR",
+      "canonical_rbps": [
+        "ADAR"
+      ],
+      "bytes": 712,
+      "sha256": "760bc25f595f903f2ad02b557bb31610ac03ba9d1069dac07617072e0d794d89"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/AIFM1.bed.gz",
+      "source_name": "AIFM1",
+      "canonical_rbps": [
+        "AIFM1"
+      ],
+      "bytes": 1184,
+      "sha256": "e6274c14866a3203a6699c9f3f0d7127d80ed01d359425a9d16d75699cbd57aa"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/AKAP1.bed.gz",
+      "source_name": "AKAP1",
+      "canonical_rbps": [
+        "AKAP1"
+      ],
+      "bytes": 30387,
+      "sha256": "15e2cb5f9127c30c6298ec12c38042e2ebd3ccf79d105bd8526f3ccdcd17238d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ALKBH1.bed.gz",
+      "source_name": "ALKBH1",
+      "canonical_rbps": [
+        "ALKBH1"
+      ],
+      "bytes": 19061,
+      "sha256": "26caad19a5aa733768de6a3d70908b5e8ba64a5d0a7002fd1eaed604e008ab26"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ALKBH3.bed.gz",
+      "source_name": "ALKBH3",
+      "canonical_rbps": [
+        "ALKBH3"
+      ],
+      "bytes": 3211,
+      "sha256": "ba852d47b6076a950c68c85785975355a6856a2b8119eeeb5b08aa9ae7989583"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ALKBH5.bed.gz",
+      "source_name": "ALKBH5",
+      "canonical_rbps": [
+        "ALKBH5"
+      ],
+      "bytes": 9492,
+      "sha256": "d9d4f694f1a2b9ddeab7d4af01159d42b68a72c562c55560c367e59df5524860"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ALYREF.bed.gz",
+      "source_name": "ALYREF",
+      "canonical_rbps": [
+        "ALYREF"
+      ],
+      "bytes": 1129141,
+      "sha256": "d08e6c7979a171dc05246499b5b0c85a1d41f44093b87ef02f97e5e2d5c4484c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/APOBEC3C.bed.gz",
+      "source_name": "APOBEC3C",
+      "canonical_rbps": [
+        "APOBEC3C"
+      ],
+      "bytes": 750,
+      "sha256": "cff2533cc0b4f7852c19a614e973ef8e732924a971a4b443e4a33aca1c86d86e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/APOBEC3F.bed.gz",
+      "source_name": "APOBEC3F",
+      "canonical_rbps": [
+        "APOBEC3F"
+      ],
+      "bytes": 9197,
+      "sha256": "ff5889230d551d870095762b6e1012831e5a172854b3b61f350375b9baa8c31e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/APOBEC3G.bed.gz",
+      "source_name": "APOBEC3G",
+      "canonical_rbps": [
+        "APOBEC3G"
+      ],
+      "bytes": 15760,
+      "sha256": "5f8914acc5df75be3a49aae6fd1e2512f73621caffc04aade2b1d57a0b97dd1e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/AQR.bed.gz",
+      "source_name": "AQR",
+      "canonical_rbps": [
+        "AQR"
+      ],
+      "bytes": 235335,
+      "sha256": "77abc6743462067b2a929ce6b7a2641c1ab6f2faa6845c2687a5df4231cdaf04"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ATXN2.bed.gz",
+      "source_name": "ATXN2",
+      "canonical_rbps": [
+        "ATXN2"
+      ],
+      "bytes": 95262,
+      "sha256": "349dcd9484b199e5124736919f2c7193f2abfa7e58a15933747f87b694902f4e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/AUH.bed.gz",
+      "source_name": "AUH",
+      "canonical_rbps": [
+        "AUH"
+      ],
+      "bytes": 13419,
+      "sha256": "b7209e133b2977c35a096af2b50560c7e8d8c360fe1491493579b7ed410f3e09"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/BCCIP.bed.gz",
+      "source_name": "BCCIP",
+      "canonical_rbps": [
+        "BCCIP"
+      ],
+      "bytes": 43289,
+      "sha256": "b525e4e06d7e39f8ff95684c8301d9d051c22295aae045da713267e065cc1e0c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/BCL11B.bed.gz",
+      "source_name": "BCL11B",
+      "canonical_rbps": [
+        "BCL11B"
+      ],
+      "bytes": 15355,
+      "sha256": "2c2ffe98a53d5d76f8c60adfa612f3f993de4d22857aff1b37f77d0f1fdce2da"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/BCLAF1.bed.gz",
+      "source_name": "BCLAF1",
+      "canonical_rbps": [
+        "BCLAF1"
+      ],
+      "bytes": 158808,
+      "sha256": "1746427b5029df58ee9bce7722c25e1585c78ef065b78f55186cb250652cb8ae"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CAPRIN1.bed.gz",
+      "source_name": "CAPRIN1",
+      "canonical_rbps": [
+        "CAPRIN1"
+      ],
+      "bytes": 148167,
+      "sha256": "814558f3aa368f0b6e469afb4ee699a2147fc31181ce9ce3cb0deb7bd016c0a4"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CDK1.bed.gz",
+      "source_name": "CDK1",
+      "canonical_rbps": [
+        "CDK1"
+      ],
+      "bytes": 148874,
+      "sha256": "648a14767706a3eebd0fca05374bbe618b6f0f5e7902a95478f24d5a4685ca84"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CDK11B.bed.gz",
+      "source_name": "CDK11B",
+      "canonical_rbps": [
+        "CDK11B"
+      ],
+      "bytes": 18201,
+      "sha256": "98a114a33ed93a0573805b25f3fe7fc8a9b49c54c197968ab7659a248b4bc911"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CELF2.bed.gz",
+      "source_name": "CELF2",
+      "canonical_rbps": [
+        "CELF2"
+      ],
+      "bytes": 151984,
+      "sha256": "a2c1ce5b832bb6c64467d8791275d06502868afbdc78c663f9d855c3e9d3a6f3"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CENPC.bed.gz",
+      "source_name": "CENPC",
+      "canonical_rbps": [
+        "CENPC"
+      ],
+      "bytes": 118045,
+      "sha256": "6232c71101260038aebfc1983692f2c29cba425b4563f23202e1fe1f2ca4219b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CHD7.bed.gz",
+      "source_name": "CHD7",
+      "canonical_rbps": [
+        "CHD7"
+      ],
+      "bytes": 25568,
+      "sha256": "01cfdbf7f5a55a128d344dc635efc4dc289a4a21da6ff36c7c6bec12fc5e5837"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CHTOP.bed.gz",
+      "source_name": "CHTOP",
+      "canonical_rbps": [
+        "CHTOP"
+      ],
+      "bytes": 513068,
+      "sha256": "62c163a1cb753c6ec3d25712215c178ceb0c5920038fa31d754cb8c0b857887e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CNBP.bed.gz",
+      "source_name": "CNBP",
+      "canonical_rbps": [
+        "CNBP"
+      ],
+      "bytes": 178103,
+      "sha256": "b32b32a18c247539b24d096cb407f29f6daceff72a02b20d4fae00c79bf7e9b0"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/COIL.bed.gz",
+      "source_name": "COIL",
+      "canonical_rbps": [
+        "COIL"
+      ],
+      "bytes": 3181,
+      "sha256": "e076f09df0fbaac74ca680517c793f930dfc8879e4ecd5cfb97727c7403ddfde"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CPEB4.bed.gz",
+      "source_name": "CPEB4",
+      "canonical_rbps": [
+        "CPEB4"
+      ],
+      "bytes": 1678,
+      "sha256": "5b54b1c1d90f45c2aaa452b317176928291121af411b8a050c587b86ad06a221"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CPSF1.bed.gz",
+      "source_name": "CPSF1",
+      "canonical_rbps": [
+        "CPSF1"
+      ],
+      "bytes": 307892,
+      "sha256": "b7316c3c765ce075613cb8ba665534e1c131b0e43f0d371445047773284d8c3c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CPSF2.bed.gz",
+      "source_name": "CPSF2",
+      "canonical_rbps": [
+        "CPSF2"
+      ],
+      "bytes": 127894,
+      "sha256": "fa8bae2929421c4a6d7ddd5569518af7493ce73e4fea85866b212a8cfa18acfc"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CPSF3.bed.gz",
+      "source_name": "CPSF3",
+      "canonical_rbps": [
+        "CPSF3"
+      ],
+      "bytes": 83496,
+      "sha256": "80c0f93fc6240da4d2f68aa3ce0848c5599b87558563dc02d67ecbfdf5ec1343"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CPSF4.bed.gz",
+      "source_name": "CPSF4",
+      "canonical_rbps": [
+        "CPSF4"
+      ],
+      "bytes": 134666,
+      "sha256": "9bd9797b7b28bb74a9ee8568d4901706ad7629cb1566a3da1f3409fac96e48fe"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CPSF6.bed.gz",
+      "source_name": "CPSF6",
+      "canonical_rbps": [
+        "CPSF6"
+      ],
+      "bytes": 495213,
+      "sha256": "503e68d2520a34d702ad7d9ddeeb735ca6ebdb42c669ffd7f6a27f3afebe2827"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CPSF7.bed.gz",
+      "source_name": "CPSF7",
+      "canonical_rbps": [
+        "CPSF7"
+      ],
+      "bytes": 635425,
+      "sha256": "b25fbf115b2e3df700c28310f2b14ab1975f8578680a0db84a3c9b76c62a4dee"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CSTF2.bed.gz",
+      "source_name": "CSTF2",
+      "canonical_rbps": [
+        "CSTF2"
+      ],
+      "bytes": 829165,
+      "sha256": "6cf701380dc9f08aa0220bf59864a5d83b41cfa97f0ce2cecfbf59e04b9c7d2f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CSTF2T.bed.gz",
+      "source_name": "CSTF2T",
+      "canonical_rbps": [
+        "CSTF2T"
+      ],
+      "bytes": 1797152,
+      "sha256": "d37bacede9a3e733a060f58f5863ec606b64828076ff25d53c9e468992f082d3"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/CTCF.bed.gz",
+      "source_name": "CTCF",
+      "canonical_rbps": [
+        "CTCF"
+      ],
+      "bytes": 690970,
+      "sha256": "038c4db75bfd355f5f96a1121a595460fdab1c92231b2d2d9a69ffdb5f561caf"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DAP3.bed.gz",
+      "source_name": "DAP3",
+      "canonical_rbps": [
+        "DAP3"
+      ],
+      "bytes": 148435,
+      "sha256": "4e87a895547f8573ddfba8e7aa256d1d64d2c7fac5bca36097b2abbbf66f791b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DCP1B.bed.gz",
+      "source_name": "DCP1B",
+      "canonical_rbps": [
+        "DCP1B"
+      ],
+      "bytes": 1000,
+      "sha256": "3a800e24b220d036ca763f78ef0e4688d9e6508e19fd6ce03062a6852fff87e7"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX21.bed.gz",
+      "source_name": "DDX21",
+      "canonical_rbps": [
+        "DDX21"
+      ],
+      "bytes": 134736,
+      "sha256": "d9728b5995538d40c0931f6f16c0389939a66bad003df8251097a3e10993df06"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX3X.bed.gz",
+      "source_name": "DDX3X",
+      "canonical_rbps": [
+        "DDX3X"
+      ],
+      "bytes": 682401,
+      "sha256": "38c0e06fc448dc459919a7a6b474ed2485a50bf86c7b7907388e50de5002c5e7"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX42.bed.gz",
+      "source_name": "DDX42",
+      "canonical_rbps": [
+        "DDX42"
+      ],
+      "bytes": 16894,
+      "sha256": "b95443a60cd22951bcd42e7bde61c0f845dab2aee53ea049a55101b585b5c121"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX5.bed.gz",
+      "source_name": "DDX5",
+      "canonical_rbps": [
+        "DDX5"
+      ],
+      "bytes": 19301,
+      "sha256": "adeb1653493e8a5524bffe1dcc28a1363c6fcf34c934120cc658dbd2497a996a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX51.bed.gz",
+      "source_name": "DDX51",
+      "canonical_rbps": [
+        "DDX51"
+      ],
+      "bytes": 2157,
+      "sha256": "3ae9215979070cce77e6963a307ad2cb4a172609c50ce9edc54540dded2148e8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX52.bed.gz",
+      "source_name": "DDX52",
+      "canonical_rbps": [
+        "DDX52"
+      ],
+      "bytes": 9126,
+      "sha256": "ceaad6cf1e021922f553c329aedb71a7960429d02236ef47975e7c4c5baa68fb"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX54.bed.gz",
+      "source_name": "DDX54",
+      "canonical_rbps": [
+        "DDX54"
+      ],
+      "bytes": 577223,
+      "sha256": "21841c10c8c40e88e59c6f1bed35fa7a229c6ca703796c6e651027a0735265fb"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DDX6.bed.gz",
+      "source_name": "DDX6",
+      "canonical_rbps": [
+        "DDX6"
+      ],
+      "bytes": 42715,
+      "sha256": "86bedc848c7554e8835b740de57388c7f7737ebf37b62405d116df4b032215b5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DGCR8.bed.gz",
+      "source_name": "DGCR8",
+      "canonical_rbps": [
+        "DGCR8"
+      ],
+      "bytes": 63608,
+      "sha256": "23fb6e0f946a1d74a9f8806fabf56629ccfe0690f5d3e634760dd62e0862094c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DHX36.bed.gz",
+      "source_name": "DHX36",
+      "canonical_rbps": [
+        "DHX36"
+      ],
+      "bytes": 384534,
+      "sha256": "218197913c65ea3a385d7a9047959f87deb392a2e54b8e8fd9a9a90029726fec"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DHX9.bed.gz",
+      "source_name": "DHX9",
+      "canonical_rbps": [
+        "DHX9"
+      ],
+      "bytes": 169431,
+      "sha256": "9ab95ba8bef5acb0114ef6016894d35bd5207c25746992924a50b992c30186fc"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DICER1.bed.gz",
+      "source_name": "DICER1",
+      "canonical_rbps": [
+        "DICER1"
+      ],
+      "bytes": 54687,
+      "sha256": "945950a5b3eb4852e74b0851c332f1956fe9947b4edae89d9765c3d736202a83"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DKC1.bed.gz",
+      "source_name": "DKC1",
+      "canonical_rbps": [
+        "DKC1"
+      ],
+      "bytes": 9051,
+      "sha256": "68e2bd7899633efd75439fe07daa109171d3fad9712879145649ea7b8393f617"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/DROSHA.bed.gz",
+      "source_name": "DROSHA",
+      "canonical_rbps": [
+        "DROSHA"
+      ],
+      "bytes": 39411,
+      "sha256": "22a3aec3e35c1c4556e9730579fbc40e1ebeb1b028e64ce5be1a869bfe15697b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF3A.bed.gz",
+      "source_name": "EIF3A",
+      "canonical_rbps": [
+        "EIF3A"
+      ],
+      "bytes": 454272,
+      "sha256": "73402d569b0e2cbe3117cad7acf9f2eddad6306a4d265ce096e4c1d6283dc6ca"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF3B.bed.gz",
+      "source_name": "EIF3B",
+      "canonical_rbps": [
+        "EIF3B"
+      ],
+      "bytes": 34800,
+      "sha256": "989f330661334631a2202a699a05028090c6b984397ef7c7fbd5dc9bb0053fda"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF3D.bed.gz",
+      "source_name": "EIF3D",
+      "canonical_rbps": [
+        "EIF3D"
+      ],
+      "bytes": 51641,
+      "sha256": "36772d61ba8998c2940ed467daacc227c009b6bdd312b7a1ca0d0ff1ca8a7b08"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF3G.bed.gz",
+      "source_name": "EIF3G",
+      "canonical_rbps": [
+        "EIF3G"
+      ],
+      "bytes": 39308,
+      "sha256": "661edff3c8e00de60908d2bacef8a3a39d6fe360de19e36293c135671738dedd"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF3H.bed.gz",
+      "source_name": "EIF3H",
+      "canonical_rbps": [
+        "EIF3H"
+      ],
+      "bytes": 40047,
+      "sha256": "e7c7304d606241129734ceafc688a8a6489ef714942c287d71fe90ba27c7df3b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF4A1.bed.gz",
+      "source_name": "EIF4A1",
+      "canonical_rbps": [
+        "EIF4A1"
+      ],
+      "bytes": 2276,
+      "sha256": "119b55fbe424ad4beb176b6b4b27dcff79bc21c43f140a4755185cbb23379a7a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF4A3.bed.gz",
+      "source_name": "EIF4A3",
+      "canonical_rbps": [
+        "EIF4A3"
+      ],
+      "bytes": 604674,
+      "sha256": "36c044df54b27f8810eb914195b5d0576900634eeed8f578e38fb65380646c6f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF4E.bed.gz",
+      "source_name": "EIF4E",
+      "canonical_rbps": [
+        "EIF4E"
+      ],
+      "bytes": 96852,
+      "sha256": "c96814ba26318c3dbbc3f25046927a668e89bebc909585b93c3954fb8e5c40be"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EIF4G2.bed.gz",
+      "source_name": "EIF4G2",
+      "canonical_rbps": [
+        "EIF4G2"
+      ],
+      "bytes": 58252,
+      "sha256": "ce3cc6f463376db86b245aef87cc15168c46b3ab0ed37cdf3a2853f904e6e96a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ELAVL1.bed.gz",
+      "source_name": "ELAVL1",
+      "canonical_rbps": [
+        "ELAVL1"
+      ],
+      "bytes": 4245861,
+      "sha256": "c1647f489b4bbf0999d6efafc6110352d6c74333f4012c3eef1b48be5439b701"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ELAVL3.bed.gz",
+      "source_name": "ELAVL3",
+      "canonical_rbps": [
+        "ELAVL3"
+      ],
+      "bytes": 473744,
+      "sha256": "80247b4ab7fa10976029b87e7b3daeff4fbb20a17903c56eff5ba35abce9369e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ENO1.bed.gz",
+      "source_name": "ENO1",
+      "canonical_rbps": [
+        "ENO1"
+      ],
+      "bytes": 1528,
+      "sha256": "68c7b63f6cf4d4193b86c019b86d8be98a72d3aaa4ad90a389bf74ed74c87979"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EWSR1.bed.gz",
+      "source_name": "EWSR1",
+      "canonical_rbps": [
+        "EWSR1"
+      ],
+      "bytes": 586663,
+      "sha256": "c691143490f75085680180b2889539ecd4cb3a0a13084c4b3bd51c4110b9b780"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EXOSC10.bed.gz",
+      "source_name": "EXOSC10",
+      "canonical_rbps": [
+        "EXOSC10"
+      ],
+      "bytes": 120221,
+      "sha256": "753ce908efcb4dc988ad65c2b5d725e30809736219701a30a1a11560b0ce4cca"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EXOSC3.bed.gz",
+      "source_name": "EXOSC3",
+      "canonical_rbps": [
+        "EXOSC3"
+      ],
+      "bytes": 435,
+      "sha256": "941fda0d8e0b609181528ce0447580afcd17569e0ae6db6fad9e715e52311ca7"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EXOSC4.bed.gz",
+      "source_name": "EXOSC4",
+      "canonical_rbps": [
+        "EXOSC4"
+      ],
+      "bytes": 1242,
+      "sha256": "009257a4e0dfe3b4d4725e7d86a0af25e2d636274e2ab00d06b376618e1da9af"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/EXOSC5.bed.gz",
+      "source_name": "EXOSC5",
+      "canonical_rbps": [
+        "EXOSC5"
+      ],
+      "bytes": 62181,
+      "sha256": "c46ebb2e6dda75920d035f81337149bfe31f1c3429e92b214f3414202efdbc06"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FAM120A.bed.gz",
+      "source_name": "FAM120A",
+      "canonical_rbps": [
+        "FAM120A"
+      ],
+      "bytes": 418833,
+      "sha256": "e0da1b6de0cba9985e43e2ccdd09d6f448ff7ed51a64f9910eeeb9b66bd68c38"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FBL.bed.gz",
+      "source_name": "FBL",
+      "canonical_rbps": [
+        "FBL"
+      ],
+      "bytes": 25577,
+      "sha256": "0501c1fc16ee4a2f275a3120f59e3f14875224859035214c7e834499148aace4"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FIP1L1.bed.gz",
+      "source_name": "FIP1L1",
+      "canonical_rbps": [
+        "FIP1L1"
+      ],
+      "bytes": 669279,
+      "sha256": "57178a711211601db997d09b38cadc9cb7d98cd63f17d20e5f29405a5cc3e0a5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FKBP4.bed.gz",
+      "source_name": "FKBP4",
+      "canonical_rbps": [
+        "FKBP4"
+      ],
+      "bytes": 18329,
+      "sha256": "2537ad17ae468f7fccd90b1c839b6fc34ef6e2deaad0fc7b16a4c144e8c36462"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FMR1.bed.gz",
+      "source_name": "FMR1",
+      "canonical_rbps": [
+        "FMR1"
+      ],
+      "bytes": 411221,
+      "sha256": "935d865119c6bab44af4756278598376a02f511bc3a79993014ca80c4b4b48a3"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FTO.bed.gz",
+      "source_name": "FTO",
+      "canonical_rbps": [
+        "FTO"
+      ],
+      "bytes": 120484,
+      "sha256": "24de6f1bb450aa67d3674803ffb1853458983d7d4256b754811c7beeb4d231fd"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FUBP1.bed.gz",
+      "source_name": "FUBP1",
+      "canonical_rbps": [
+        "FUBP1"
+      ],
+      "bytes": 250339,
+      "sha256": "e534904eb91e9076827fbfa4ef5c30d9d7ccbcb9fbf9131c6e702c690bdf9f0c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FUBP3.bed.gz",
+      "source_name": "FUBP3",
+      "canonical_rbps": [
+        "FUBP3"
+      ],
+      "bytes": 56635,
+      "sha256": "fae8ca66fbdfa7de07cca9ef1bc125fe0e73c7bae0fd3f1c971f3b7068205622"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FUS.bed.gz",
+      "source_name": "FUS",
+      "canonical_rbps": [
+        "FUS"
+      ],
+      "bytes": 1036524,
+      "sha256": "63c68b75760637eaa234da0951d958f506a63bfb88662a9aad4eb7259174c6c5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FXR1.bed.gz",
+      "source_name": "FXR1",
+      "canonical_rbps": [
+        "FXR1"
+      ],
+      "bytes": 196206,
+      "sha256": "98e0f646be4cb8100291b87fc26208ffad0bc3aca993a6f1e0e976d6444e74f0"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/FXR2.bed.gz",
+      "source_name": "FXR2",
+      "canonical_rbps": [
+        "FXR2"
+      ],
+      "bytes": 202298,
+      "sha256": "f0b82114dec08e4a98b2773eafa111f5b958bab058eb2617012e1f1f777a0e7b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/G3BP1.bed.gz",
+      "source_name": "G3BP1",
+      "canonical_rbps": [
+        "G3BP1"
+      ],
+      "bytes": 815282,
+      "sha256": "bd9413e0a3f2a82e1608ccd5f487cd0829734ed3a47cde84daf2ff55c61fd20e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/G3BP2.bed.gz",
+      "source_name": "G3BP2",
+      "canonical_rbps": [
+        "G3BP2"
+      ],
+      "bytes": 33848,
+      "sha256": "c9fe910d9fc7df12f10a1208328f4fcc58ce58770f81e788d8257bcba91a10df"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/GEMIN5.bed.gz",
+      "source_name": "GEMIN5",
+      "canonical_rbps": [
+        "GEMIN5"
+      ],
+      "bytes": 50103,
+      "sha256": "b86acc81548833764b8a150ca684f31cafa0c672628952c525444e605520a302"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/GNL3.bed.gz",
+      "source_name": "GNL3",
+      "canonical_rbps": [
+        "GNL3"
+      ],
+      "bytes": 6187,
+      "sha256": "397df751344839162dbc862251688c975a8bf953921e074e8cf7cfc78809ea33"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/GRSF1.bed.gz",
+      "source_name": "GRSF1",
+      "canonical_rbps": [
+        "GRSF1"
+      ],
+      "bytes": 53804,
+      "sha256": "da92366f8366f6434b9900d87b6861c3fb63ee5d4d47c542b5a329f675299463"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/GRWD1.bed.gz",
+      "source_name": "GRWD1",
+      "canonical_rbps": [
+        "GRWD1"
+      ],
+      "bytes": 44259,
+      "sha256": "37e37e7102ff46bc92403d3934e4d2b6fa81e9faef80839154e52a737791214b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/GTF2F1.bed.gz",
+      "source_name": "GTF2F1",
+      "canonical_rbps": [
+        "GTF2F1"
+      ],
+      "bytes": 217636,
+      "sha256": "e1566d97cca8e43c29c8588dc09637f42c6f4ec2eafd9b72f4f131f966e04e28"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HDLBP.bed.gz",
+      "source_name": "HDLBP",
+      "canonical_rbps": [
+        "HDLBP"
+      ],
+      "bytes": 463801,
+      "sha256": "73ee0775e11711ae26ef7b65b5277f93fb663897a71ae0813efa5c304ee21e95"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HEXIM1.bed.gz",
+      "source_name": "HEXIM1",
+      "canonical_rbps": [
+        "HEXIM1"
+      ],
+      "bytes": 3245,
+      "sha256": "4c44e10615233adab5ecd39ba9a6979bd2fc8d2a75cdb57c4cc857d0ed004c8c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HLTF.bed.gz",
+      "source_name": "HLTF",
+      "canonical_rbps": [
+        "HLTF"
+      ],
+      "bytes": 32621,
+      "sha256": "69196b7861bbf2aa1185b6f80519d5d58122435ec36e2f33085a8a6d0ea2bfe9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPA1.bed.gz",
+      "source_name": "HNRNPA1",
+      "canonical_rbps": [
+        "HNRNPA1"
+      ],
+      "bytes": 168478,
+      "sha256": "aacf23b01dd02c3edbc2c0a217f34e69439a6602c5a7d34e70699340e8ed505b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPA2B1.bed.gz",
+      "source_name": "HNRNPA2B1",
+      "canonical_rbps": [
+        "HNRNPA2B1"
+      ],
+      "bytes": 1547622,
+      "sha256": "c99e99d6444ddf93183c0ac05349a466e70dcdb8d6f65d4fd0fdaafaba254f20"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPC.bed.gz",
+      "source_name": "HNRNPC",
+      "canonical_rbps": [
+        "HNRNPC"
+      ],
+      "bytes": 2355940,
+      "sha256": "dec51d00d2379c36329f7e217e22c17c13981760f7513c4391f073af06936945"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPD.bed.gz",
+      "source_name": "HNRNPD",
+      "canonical_rbps": [
+        "HNRNPD"
+      ],
+      "bytes": 20731,
+      "sha256": "0b062e68e2484887cad827652677a3ed25c0dbbb0d06e9da2a04d486e9797767"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPF.bed.gz",
+      "source_name": "HNRNPF",
+      "canonical_rbps": [
+        "HNRNPF"
+      ],
+      "bytes": 10741,
+      "sha256": "59a81ff9199ca83432c69767a66e0e9a3e996b9badea9171484dd576b9588ff4"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPH1.bed.gz",
+      "source_name": "HNRNPH1",
+      "canonical_rbps": [
+        "HNRNPH1"
+      ],
+      "bytes": 141594,
+      "sha256": "e63996c6e7922824ed49b584336e4b574342f8cc75904cd2f2f2c810d3e4275c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPK.bed.gz",
+      "source_name": "HNRNPK",
+      "canonical_rbps": [
+        "HNRNPK"
+      ],
+      "bytes": 472630,
+      "sha256": "0f5f7627526fc49fd9e114c8740c50123c18a31dc0aa163402d2f673ec485227"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPL.bed.gz",
+      "source_name": "HNRNPL",
+      "canonical_rbps": [
+        "HNRNPL"
+      ],
+      "bytes": 372053,
+      "sha256": "654868d42caba49eada91b263853ead1fe018871a289ad9e535193386b002e21"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPM.bed.gz",
+      "source_name": "HNRNPM",
+      "canonical_rbps": [
+        "HNRNPM"
+      ],
+      "bytes": 513420,
+      "sha256": "2e31eb28b61d974769f412c145565f304bbc9b6b370fb464ac660d52207a40e9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPU.bed.gz",
+      "source_name": "HNRNPU",
+      "canonical_rbps": [
+        "HNRNPU"
+      ],
+      "bytes": 342563,
+      "sha256": "64ee401d641a6b994312d6c27f1a530fc41d76197e4efec3699db41511b833e0"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/HNRNPUL1.bed.gz",
+      "source_name": "HNRNPUL1",
+      "canonical_rbps": [
+        "HNRNPUL1"
+      ],
+      "bytes": 59406,
+      "sha256": "cd6716c37227a0b0db719c26de4d413460c7e06cc7db4b9d2b028c2007754307"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/IFIT2.bed.gz",
+      "source_name": "IFIT2",
+      "canonical_rbps": [
+        "IFIT2"
+      ],
+      "bytes": 389,
+      "sha256": "25ad261474b40b100b39a08faa4de0c839001a274b34fe65f5da9b4671b81d8d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/IGF2BP1.bed.gz",
+      "source_name": "IGF2BP1",
+      "canonical_rbps": [
+        "IGF2BP1"
+      ],
+      "bytes": 757393,
+      "sha256": "cd5e3eee590ce026e470cd4a53eef3b138bf46e29b9983b6d472e0e130488e49"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/IGF2BP2.bed.gz",
+      "source_name": "IGF2BP2",
+      "canonical_rbps": [
+        "IGF2BP2"
+      ],
+      "bytes": 1973980,
+      "sha256": "6c28269456d3eabff381b2492eeecbacca5eacd7ca4129dd1e40f610f9256bb8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/IGF2BP3.bed.gz",
+      "source_name": "IGF2BP3",
+      "canonical_rbps": [
+        "IGF2BP3"
+      ],
+      "bytes": 1088852,
+      "sha256": "88f27e7d48137503cdb5ef946766d300536103fe2a22135c1b1c71f249d9959a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ILF2.bed.gz",
+      "source_name": "ILF2",
+      "canonical_rbps": [
+        "ILF2"
+      ],
+      "bytes": 4217,
+      "sha256": "c225546f9dd20decb8f210e0570543f4a19bce3ea001c1779b9216cd4dae12f2"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ILF3.bed.gz",
+      "source_name": "ILF3",
+      "canonical_rbps": [
+        "ILF3"
+      ],
+      "bytes": 394043,
+      "sha256": "576ff2148631b28caa7b4049f7f03458288fa13e4a360da5c236d78f4d879336"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/KHDRBS1.bed.gz",
+      "source_name": "KHDRBS1",
+      "canonical_rbps": [
+        "KHDRBS1"
+      ],
+      "bytes": 144987,
+      "sha256": "d76792cd22e21648509829f16c9bb18cb3255480c0508a88e5bd26e5c2dc1a87"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/KHDRBS2.bed.gz",
+      "source_name": "KHDRBS2",
+      "canonical_rbps": [
+        "KHDRBS2"
+      ],
+      "bytes": 139604,
+      "sha256": "9ef1a7a5e2938c305c066f01a646369e0fb65aabac7f235d85ccf70c2403e333"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/KHSRP.bed.gz",
+      "source_name": "KHSRP",
+      "canonical_rbps": [
+        "KHSRP"
+      ],
+      "bytes": 287202,
+      "sha256": "f0a9c3a544e1da6fbf8134aaf2b29358fe7c09179a5b6552312c794041ad7a64"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/LARP1.bed.gz",
+      "source_name": "LARP1",
+      "canonical_rbps": [
+        "LARP1"
+      ],
+      "bytes": 34708,
+      "sha256": "9e19213265be52254885c3a3f8cb41fc7476995ab29fa0e8b35a388092f6be4f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/LARP4B.bed.gz",
+      "source_name": "LARP4B",
+      "canonical_rbps": [
+        "LARP4B"
+      ],
+      "bytes": 125162,
+      "sha256": "09367325dd495bc2d45be401c0e54f171e5fcf73e3af874b5d5cf70105a75d27"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/LARP7.bed.gz",
+      "source_name": "LARP7",
+      "canonical_rbps": [
+        "LARP7"
+      ],
+      "bytes": 14081,
+      "sha256": "d23e5deee18925049e94794305662ee3e8ef96d18e8df52bc25ed30230bb7975"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/LIN28A.bed.gz",
+      "source_name": "LIN28A",
+      "canonical_rbps": [
+        "LIN28A"
+      ],
+      "bytes": 104645,
+      "sha256": "c3049bca6c30a3845f76bd394abb55bd6f5032d4b2676399e76629ce06b965cd"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/LIN28B.bed.gz",
+      "source_name": "LIN28B",
+      "canonical_rbps": [
+        "LIN28B"
+      ],
+      "bytes": 543214,
+      "sha256": "172db4a76831cab981e30ff3a8dd11b619f09bcffbf5361baae3416e8da91b29"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/LRPPRC.bed.gz",
+      "source_name": "LRPPRC",
+      "canonical_rbps": [
+        "LRPPRC"
+      ],
+      "bytes": 677,
+      "sha256": "76346e46f3c2fc11a1f4779cc78b976ade8b7d8f44249f8d5591eeadba9a9f53"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/LUC7L2.bed.gz",
+      "source_name": "LUC7L2",
+      "canonical_rbps": [
+        "LUC7L2"
+      ],
+      "bytes": 6982,
+      "sha256": "5b9eb72de5edc9cfee46111d32c041be131d506addc32785efc74b87ce84dc13"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MAP1LC3B.bed.gz",
+      "source_name": "MAP1LC3B",
+      "canonical_rbps": [
+        "MAP1LC3B"
+      ],
+      "bytes": 13070,
+      "sha256": "cf1df0ce45987a3dbc2419671fc8923bef6220f6944bb8a2da6909b84907063d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MARF1.bed.gz",
+      "source_name": "MARF1",
+      "canonical_rbps": [
+        "MARF1"
+      ],
+      "bytes": 30802,
+      "sha256": "732973ec692674b1395dc9887a3e0f43efa724a7dfcdd49db02d87cd3b69c446"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MATR3.bed.gz",
+      "source_name": "MATR3",
+      "canonical_rbps": [
+        "MATR3"
+      ],
+      "bytes": 114243,
+      "sha256": "9cf20f0ee854f1f32001514b7b72016d3be5f3e85608f4a17a96074721f43f3d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MBNL1.bed.gz",
+      "source_name": "MBNL1",
+      "canonical_rbps": [
+        "MBNL1"
+      ],
+      "bytes": 306167,
+      "sha256": "03b9d87122d0b6e5cef58cbbce403c0e5f343a97b6cac667b3bc3ffbdba4e29d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MBNL2.bed.gz",
+      "source_name": "MBNL2",
+      "canonical_rbps": [
+        "MBNL2"
+      ],
+      "bytes": 107473,
+      "sha256": "d55ca06f9e6e319f8ddfd144623eaa3eb7371a566b072b3b97de5929f28abd77"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/METTL1.bed.gz",
+      "source_name": "METTL1",
+      "canonical_rbps": [
+        "METTL1"
+      ],
+      "bytes": 234176,
+      "sha256": "ddef23d74b56b68895d997792061c07ca00b6f58d59f292d4db35e1f469d1ce8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/METTL14.bed.gz",
+      "source_name": "METTL14",
+      "canonical_rbps": [
+        "METTL14"
+      ],
+      "bytes": 15048,
+      "sha256": "be45494730386f542ffaf3f877c3f1fb52b30126c18e3ba28963ea0a4a8f4ede"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/METTL3.bed.gz",
+      "source_name": "METTL3",
+      "canonical_rbps": [
+        "METTL3"
+      ],
+      "bytes": 56220,
+      "sha256": "b8e8629703252be8f886ba1a108e210bdbebf57d58ca9ae65d4a5dc63812ce78"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/METTL5.bed.gz",
+      "source_name": "METTL5",
+      "canonical_rbps": [
+        "METTL5"
+      ],
+      "bytes": 507,
+      "sha256": "5969a900742d6e5784528af6ecfd5f1ec51db4d173a39f891f4eb5b8ee2cdb9f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MEX3A.bed.gz",
+      "source_name": "MEX3A",
+      "canonical_rbps": [
+        "MEX3A"
+      ],
+      "bytes": 233,
+      "sha256": "38aa768e7629a2e305c44e8536f777a83ffc6d09bd016093a3b39a4e6f369b20"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MKRN1.bed.gz",
+      "source_name": "MKRN1",
+      "canonical_rbps": [
+        "MKRN1"
+      ],
+      "bytes": 3422,
+      "sha256": "8e1a67fae3c1519b8971fe9ffa321c421302c3d5c42687cebc6b951aee51a37b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MOV10.bed.gz",
+      "source_name": "MOV10",
+      "canonical_rbps": [
+        "MOV10"
+      ],
+      "bytes": 425521,
+      "sha256": "6bcf3fa447129bdc15b1eb2f7dab07f2b0939a6dccea985d7f868c5f22e284d2"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MSI1.bed.gz",
+      "source_name": "MSI1",
+      "canonical_rbps": [
+        "MSI1"
+      ],
+      "bytes": 256168,
+      "sha256": "95d7b2c3f1be5cd7fbfc74ea40c7ab2bad3949bf6b6bd3d5f2fedae8fc89afd8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MSI2.bed.gz",
+      "source_name": "MSI2",
+      "canonical_rbps": [
+        "MSI2"
+      ],
+      "bytes": 131141,
+      "sha256": "842aea7bb02c3895e155ada2ff7b1bb7361a998596bb5539ad845405ed7843d3"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MTA1.bed.gz",
+      "source_name": "MTA1",
+      "canonical_rbps": [
+        "MTA1"
+      ],
+      "bytes": 88757,
+      "sha256": "e65d520359b46d237613e08e0c0110b648fc57206a7cc877bc15c62ac4dbead8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/MTDH.bed.gz",
+      "source_name": "MTDH",
+      "canonical_rbps": [
+        "MTDH"
+      ],
+      "bytes": 482269,
+      "sha256": "78ebeeeb50df6e1b5a021f26fcb20aed0f44e4bfcee11d0738381ceed4c06bb1"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NAT10.bed.gz",
+      "source_name": "NAT10",
+      "canonical_rbps": [
+        "NAT10"
+      ],
+      "bytes": 28640,
+      "sha256": "b85335378d03a6160f62d125bc006ffef5bf0e5f04d7bf52a960feae88c5d52f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NCBP3.bed.gz",
+      "source_name": "NCBP3",
+      "canonical_rbps": [
+        "NCBP3"
+      ],
+      "bytes": 7962,
+      "sha256": "b84418f35745a40ad8313a30790cde2ccbed8d82aba68035a0b32891516cd13a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NEMF.bed.gz",
+      "source_name": "NEMF",
+      "canonical_rbps": [
+        "NEMF"
+      ],
+      "bytes": 7427,
+      "sha256": "c29bf05cd3fdb113a36eac6a958e88d8fd20885dda7069487704a8cfc8ed4396"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NIP7.bed.gz",
+      "source_name": "NIP7",
+      "canonical_rbps": [
+        "NIP7"
+      ],
+      "bytes": 4164,
+      "sha256": "9852a5f27a2dc73901ae70c7ddb83ff0d9c612cfa6afaec3a7065b4578629559"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NIPBL.bed.gz",
+      "source_name": "NIPBL",
+      "canonical_rbps": [
+        "NIPBL"
+      ],
+      "bytes": 7481,
+      "sha256": "da2f1a16ae4202c275144de1c5328bd21adb35c41bfb5ba7abed8107517e56fb"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NOLC1.bed.gz",
+      "source_name": "NOLC1",
+      "canonical_rbps": [
+        "NOLC1"
+      ],
+      "bytes": 30693,
+      "sha256": "9b8545a675d7726520a4e6a93ae62f4244b43f7314740336ccc8ad676ccf21c1"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NONO.bed.gz",
+      "source_name": "NONO",
+      "canonical_rbps": [
+        "NONO"
+      ],
+      "bytes": 217642,
+      "sha256": "826fd5c17acfbb5939302bc2ab0e99a1b0745cdb73c4b12bb7d0cfb1f23eb79f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NOP2.bed.gz",
+      "source_name": "NOP2",
+      "canonical_rbps": [
+        "NOP2"
+      ],
+      "bytes": 1606,
+      "sha256": "f74ccb5e42cec2fbfac0419588aa49cd6972888e9e4674dc41b85f80a6ab62db"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NOP56.bed.gz",
+      "source_name": "NOP56",
+      "canonical_rbps": [
+        "NOP56"
+      ],
+      "bytes": 22422,
+      "sha256": "6c89eaa06cd91918a46d5f2e8079f9576d1f301606bdd60711235ff01ddf505f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NOP58.bed.gz",
+      "source_name": "NOP58",
+      "canonical_rbps": [
+        "NOP58"
+      ],
+      "bytes": 29417,
+      "sha256": "5006cb5884d3cb22e127a4e9bf804053bc141f7f093b4b749c88a419d6e2695c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NOVA1.bed.gz",
+      "source_name": "NOVA1",
+      "canonical_rbps": [
+        "NOVA1"
+      ],
+      "bytes": 95668,
+      "sha256": "f319da0044be63cc8a0e4fbca4e0583af21d9157808d6258cf522c53922132c5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NPM1.bed.gz",
+      "source_name": "NPM1",
+      "canonical_rbps": [
+        "NPM1"
+      ],
+      "bytes": 4667,
+      "sha256": "dd334be3ab4d6c46e749f9e0becb35a1374aa89d4c79b9a529c1cef3c52d9b26"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NSUN2.bed.gz",
+      "source_name": "NSUN2",
+      "canonical_rbps": [
+        "NSUN2"
+      ],
+      "bytes": 1372,
+      "sha256": "737ef3179d16e812d1e39c11827738e92df854dbac439bdb9dfa5e2e6fa8292b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NUDT16L1.bed.gz",
+      "source_name": "NUDT16L1",
+      "canonical_rbps": [
+        "NUDT16L1"
+      ],
+      "bytes": 182772,
+      "sha256": "17d31a3e0ca42a6fd0d9bd122cdc9b7b7bed548f315ed8647f1e0454bee5d879"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NUDT21.bed.gz",
+      "source_name": "NUDT21",
+      "canonical_rbps": [
+        "NUDT21"
+      ],
+      "bytes": 590611,
+      "sha256": "ebda67174116502e9e94fe67ddb92ac4a828e0bfa87bbf4740bcb4c795a3abbf"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NUMA1.bed.gz",
+      "source_name": "NUMA1",
+      "canonical_rbps": [
+        "NUMA1"
+      ],
+      "bytes": 5880,
+      "sha256": "af542658d41e6575f011521e98989d401e22cf9b5c472257eb1542dde2bf6f2b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/NXF1.bed.gz",
+      "source_name": "NXF1",
+      "canonical_rbps": [
+        "NXF1"
+      ],
+      "bytes": 398574,
+      "sha256": "d502b45d2787bc4c9d6d4e73b1d033922fa0cdb5df3b933cbd5e8c5fbcc0d540"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/OAS1.bed.gz",
+      "source_name": "OAS1",
+      "canonical_rbps": [
+        "OAS1"
+      ],
+      "bytes": 19144,
+      "sha256": "dc082da3255d80904d0902531596023b5bbf6a889c6a50870307d04ed34ca0b7"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/OBI1.bed.gz",
+      "source_name": "OBI1",
+      "canonical_rbps": [
+        "OBI1"
+      ],
+      "bytes": 1571,
+      "sha256": "3ae232c7257e0741f86c1a333bdda8b06ea1437e13c612539628d4f37b1216a5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PABPC4.bed.gz",
+      "source_name": "PABPC4",
+      "canonical_rbps": [
+        "PABPC4"
+      ],
+      "bytes": 58064,
+      "sha256": "b0b545f4c0318c6a3b97d3790689ffb3b56af56c62c68a0926aa548151e96fe6"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PABPN1.bed.gz",
+      "source_name": "PABPN1",
+      "canonical_rbps": [
+        "PABPN1"
+      ],
+      "bytes": 7816,
+      "sha256": "a6072a81eeade87f7e6caeb6680a5cd3a8be5396ba75239b3e2ffce142c543a6"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PARP1.bed.gz",
+      "source_name": "PARP1",
+      "canonical_rbps": [
+        "PARP1"
+      ],
+      "bytes": 6462,
+      "sha256": "7a6c870a721d27d6d0be1c0c56db2264b8e04ef4435ab87a4148882bede263ad"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PCBP1.bed.gz",
+      "source_name": "PCBP1",
+      "canonical_rbps": [
+        "PCBP1"
+      ],
+      "bytes": 15112,
+      "sha256": "bf7a533308860a90d07805e6ce00f1b35cb91478fae0dbf4b389cbd6d7a0ef48"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PCBP2.bed.gz",
+      "source_name": "PCBP2",
+      "canonical_rbps": [
+        "PCBP2"
+      ],
+      "bytes": 561094,
+      "sha256": "c23cfdc7303ee0ed4c9bdf381808d74a5e258775f7a39a72025f4f375f21d0fd"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PHF6.bed.gz",
+      "source_name": "PHF6",
+      "canonical_rbps": [
+        "PHF6"
+      ],
+      "bytes": 3806,
+      "sha256": "771cabdaadb0df05184464f93a51e6377046632becd3a3b468e2f25e17a7dba9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/POLR2A.bed.gz",
+      "source_name": "POLR2A",
+      "canonical_rbps": [
+        "POLR2A"
+      ],
+      "bytes": 35347,
+      "sha256": "4bc57f0ceb1864401b129db632f804b7d1acf53de4013bdd62a75366e9b71254"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/POLR2G.bed.gz",
+      "source_name": "POLR2G",
+      "canonical_rbps": [
+        "POLR2G"
+      ],
+      "bytes": 9261,
+      "sha256": "891a4ff33bf4672b9f88bee2081ea2f789d90363583698de750fc48cbb388f81"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PRKDC.bed.gz",
+      "source_name": "PRKDC",
+      "canonical_rbps": [
+        "PRKDC"
+      ],
+      "bytes": 2132,
+      "sha256": "ad442f51e9b1ab61072bc639f396795df7af6f7235ad5a3c784ef978b552dd8c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PRKRA.bed.gz",
+      "source_name": "PRKRA",
+      "canonical_rbps": [
+        "PRKRA"
+      ],
+      "bytes": 762,
+      "sha256": "7477671b234e8107a2473c9b784823d54be521d2c8793418ca08c1c376721f00"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PRPF39.bed.gz",
+      "source_name": "PRPF39",
+      "canonical_rbps": [
+        "PRPF39"
+      ],
+      "bytes": 16462,
+      "sha256": "98da209b17b9a2f22bc865dbaee75ce633dbb78eb4904882a9603698ccc04dcc"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PRPF4.bed.gz",
+      "source_name": "PRPF4",
+      "canonical_rbps": [
+        "PRPF4"
+      ],
+      "bytes": 161642,
+      "sha256": "50b5c21e2adfebdbb05625873666f9a31e84b603abc745819378fc713235d7f0"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PRPF8.bed.gz",
+      "source_name": "PRPF8",
+      "canonical_rbps": [
+        "PRPF8"
+      ],
+      "bytes": 834412,
+      "sha256": "e505e31bb0560324e06e2b8f3b90e104249e689cc322fc4cba42f247300ebc25"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PTBP1.bed.gz",
+      "source_name": "PTBP1",
+      "canonical_rbps": [
+        "PTBP1"
+      ],
+      "bytes": 1251788,
+      "sha256": "fe04ec8f9cb46739d8a95cc8fa21f78ee9a4563257ad7b981e41d80f54f13fe5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PUM1.bed.gz",
+      "source_name": "PUM1",
+      "canonical_rbps": [
+        "PUM1"
+      ],
+      "bytes": 101134,
+      "sha256": "8993ca4713cff810689d3c9c1d7e3d77fc4d4282d4e74b283129550a5091584d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PUM2.bed.gz",
+      "source_name": "PUM2",
+      "canonical_rbps": [
+        "PUM2"
+      ],
+      "bytes": 27221,
+      "sha256": "d579ad30599815ca5914c978e36a67a0c1e9297f66b08be657cb05e737518d88"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PUS10.bed.gz",
+      "source_name": "PUS10",
+      "canonical_rbps": [
+        "PUS10"
+      ],
+      "bytes": 125078,
+      "sha256": "9b6297619f4886e4a45da4a16dab3612c8c8b4c0495dee8ccf93db44fda2fa84"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/PUS7.bed.gz",
+      "source_name": "PUS7",
+      "canonical_rbps": [
+        "PUS7"
+      ],
+      "bytes": 2136,
+      "sha256": "e302a20b856e8d3339583348b92dd5ecd2658929aad7ca1ef3556a882565bfa5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/QKI.bed.gz",
+      "source_name": "QKI",
+      "canonical_rbps": [
+        "QKI"
+      ],
+      "bytes": 80764,
+      "sha256": "6a0e386f65f2b99b4d8ecd908c9408784526ce10e44cfe844ab26df6623f0ea9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RANGAP1.bed.gz",
+      "source_name": "RANGAP1",
+      "canonical_rbps": [
+        "RANGAP1"
+      ],
+      "bytes": 5757,
+      "sha256": "058d191630e491e4182cc4d8d4cae8fd26413185a36c0638a3318e8369ecb7a5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBFOX1.bed.gz",
+      "source_name": "RBFOX1",
+      "canonical_rbps": [
+        "RBFOX1"
+      ],
+      "bytes": 173986,
+      "sha256": "361d23411b642bf61ca22be6c780f7726a5e95d2333db267de0d9989e784c0c6"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBFOX2.bed.gz",
+      "source_name": "RBFOX2",
+      "canonical_rbps": [
+        "RBFOX2"
+      ],
+      "bytes": 852267,
+      "sha256": "c8a275ebecae859817873e62057a419020f4fe39469dd8713cc15fc45937d351"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM10.bed.gz",
+      "source_name": "RBM10",
+      "canonical_rbps": [
+        "RBM10"
+      ],
+      "bytes": 690815,
+      "sha256": "301644b670f4237f1c2e1aa5823cea397ce843586d9216772a55ce284fe1ff9e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM12.bed.gz",
+      "source_name": "RBM12",
+      "canonical_rbps": [
+        "RBM12"
+      ],
+      "bytes": 649,
+      "sha256": "5c17773cc2ed0db5a8bbcb87ee4fd34e71f7c54cbddcbb0a037fee78a35153a9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM15.bed.gz",
+      "source_name": "RBM15",
+      "canonical_rbps": [
+        "RBM15"
+      ],
+      "bytes": 637083,
+      "sha256": "a9895a017711e2ae4cb5d25037a9e4edb59644861e87d779ca09293400a285b6"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM15B.bed.gz",
+      "source_name": "RBM15B",
+      "canonical_rbps": [
+        "RBM15B"
+      ],
+      "bytes": 842222,
+      "sha256": "cfd9167b5c11cdf8fa65c1454e8dbceee8e02da4c6914f9f9e50dc815a9f5145"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM17.bed.gz",
+      "source_name": "RBM17",
+      "canonical_rbps": [
+        "RBM17"
+      ],
+      "bytes": 450,
+      "sha256": "b486a29062c4f94932b29977e06a11d341a6ef0d4083bccd28f8fd9c114ab687"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM20.bed.gz",
+      "source_name": "RBM20",
+      "canonical_rbps": [
+        "RBM20"
+      ],
+      "bytes": 260025,
+      "sha256": "65dc514ac5086b91cf966fb6694659d64f20fcd65691c67217a64f8103da20b4"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM22.bed.gz",
+      "source_name": "RBM22",
+      "canonical_rbps": [
+        "RBM22"
+      ],
+      "bytes": 48660,
+      "sha256": "44f41dc557f1994964c70e8c02c64fc6c1a75e562e422f9333a1bfb0a5b0ebee"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM27.bed.gz",
+      "source_name": "RBM27",
+      "canonical_rbps": [
+        "RBM27"
+      ],
+      "bytes": 17814,
+      "sha256": "68c18f126cd37e4978df3e841d9340303e9d3fcfe5913d4a59cfcfe93d7ff336"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM39.bed.gz",
+      "source_name": "RBM39",
+      "canonical_rbps": [
+        "RBM39"
+      ],
+      "bytes": 99367,
+      "sha256": "2e25a767dfc38bcf1d623eccc727cda29d89937f0f2fbc408802cfd029213263"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM4.bed.gz",
+      "source_name": "RBM4",
+      "canonical_rbps": [
+        "RBM4"
+      ],
+      "bytes": 484273,
+      "sha256": "0b6d031c07326ecd07dcc3435a412f4a1101b9972fb2b0d25595d5a5951c57af"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM47.bed.gz",
+      "source_name": "RBM47",
+      "canonical_rbps": [
+        "RBM47"
+      ],
+      "bytes": 257289,
+      "sha256": "7801246339590386b99c45d68365910646833ec313b3bcca150c082b90363f9a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM5.bed.gz",
+      "source_name": "RBM5",
+      "canonical_rbps": [
+        "RBM5"
+      ],
+      "bytes": 17522,
+      "sha256": "151cb387e2216e4b8becd4b72aa8291cf92a4fb2f900520e9bf06d9aa3fdc2d0"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBM7.bed.gz",
+      "source_name": "RBM7",
+      "canonical_rbps": [
+        "RBM7"
+      ],
+      "bytes": 386660,
+      "sha256": "a078208b411d2ffc724d98abcfe972358c0778bd01f363dff346633806d70ea3"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBMX.bed.gz",
+      "source_name": "RBMX",
+      "canonical_rbps": [
+        "RBMX"
+      ],
+      "bytes": 2741753,
+      "sha256": "47548e3927ad0275dd57e0513712a4bd82745101a5430ad6eb6edc9fa3985772"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RBPMS.bed.gz",
+      "source_name": "RBPMS",
+      "canonical_rbps": [
+        "RBPMS"
+      ],
+      "bytes": 147592,
+      "sha256": "436973efebb004e906b7531429c27894f35a53da1127c497c219af9e94a1c6e8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RC3H1.bed.gz",
+      "source_name": "RC3H1",
+      "canonical_rbps": [
+        "RC3H1"
+      ],
+      "bytes": 100894,
+      "sha256": "efcba2bd687238ca503b2f8b0270c214003e0de2699a194e9de032cbf1ff7565"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RELA.bed.gz",
+      "source_name": "RELA",
+      "canonical_rbps": [
+        "RELA"
+      ],
+      "bytes": 252,
+      "sha256": "9cc5b5a03897cc70f64a557d2af1c710bdb285b7f8fabce274e9246b63157a70"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RNF10.bed.gz",
+      "source_name": "RNF10",
+      "canonical_rbps": [
+        "RNF10"
+      ],
+      "bytes": 190968,
+      "sha256": "86d221fe1fa694297edb0a15f5b09aa30f1d39b81393a7a264f742880425e4d0"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RNMT.bed.gz",
+      "source_name": "RNMT",
+      "canonical_rbps": [
+        "RNMT"
+      ],
+      "bytes": 12862,
+      "sha256": "dddd89980a17beb3f36e4fcf0dbbadb7133e0a790663de955c3c21df51f78e7a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RNPS1.bed.gz",
+      "source_name": "RNPS1",
+      "canonical_rbps": [
+        "RNPS1"
+      ],
+      "bytes": 941527,
+      "sha256": "17f1688772c4370c0e808f6079902560d914e530bd3598417b1ae401eca6dbee"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RO60.bed.gz",
+      "source_name": "RO60",
+      "canonical_rbps": [
+        "RO60"
+      ],
+      "bytes": 20693,
+      "sha256": "e36277c055e7c87c8ea47c5b0c39f35d6f2360f6af31c52d5faca42c8be68687"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RPL29.bed.gz",
+      "source_name": "RPL29",
+      "canonical_rbps": [
+        "RPL29"
+      ],
+      "bytes": 509,
+      "sha256": "78f71c39b251903fce38c2bc2ebad25e0e4b411e220593f8106dcb38328831b7"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RPL5.bed.gz",
+      "source_name": "RPL5",
+      "canonical_rbps": [
+        "RPL5"
+      ],
+      "bytes": 213,
+      "sha256": "0e2aa19b50e2a0e124ecc7a80102880b7e9af3b86317c52f0a6bd6fedccc3f50"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RPS3.bed.gz",
+      "source_name": "RPS3",
+      "canonical_rbps": [
+        "RPS3"
+      ],
+      "bytes": 30767,
+      "sha256": "c68d9d4ff5fac9bc95586ef91d353137619251e0198ed78cb83613633d8ee8e1"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RRBP1.bed.gz",
+      "source_name": "RRBP1",
+      "canonical_rbps": [
+        "RRBP1"
+      ],
+      "bytes": 9610,
+      "sha256": "78474bc64a3c71debe8e1d57d5d4b49bcd67cb713b7ea343b570c77d65641e3a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/RTCB.bed.gz",
+      "source_name": "RTCB",
+      "canonical_rbps": [
+        "RTCB"
+      ],
+      "bytes": 59113,
+      "sha256": "c54e62e056dcc35964f0c8bce336a2ba0bf0c2b522a699422f25c1cc8bb683fd"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SAFB.bed.gz",
+      "source_name": "SAFB",
+      "canonical_rbps": [
+        "SAFB"
+      ],
+      "bytes": 62134,
+      "sha256": "7363fd3ebfda1a6744a649c4d4e129e3353b9a276bc6a8f01a78327ed18970f2"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SAFB2.bed.gz",
+      "source_name": "SAFB2",
+      "canonical_rbps": [
+        "SAFB2"
+      ],
+      "bytes": 81102,
+      "sha256": "84d10fd529bb2fae9eda3a31958d93732560a86473431871806c7dd6660d0747"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SBDS.bed.gz",
+      "source_name": "SBDS",
+      "canonical_rbps": [
+        "SBDS"
+      ],
+      "bytes": 2060,
+      "sha256": "2511120fe7eb7414dd60d9e6dbee647655bd5ddbfb8a904be3bffea4d5672eaa"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SCAF4.bed.gz",
+      "source_name": "SCAF4",
+      "canonical_rbps": [
+        "SCAF4"
+      ],
+      "bytes": 1141073,
+      "sha256": "a8694f4a7c98bf3326e74be1ef4573bade6b644f97b808e6d1c8b70a8635ac19"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SCAF8.bed.gz",
+      "source_name": "SCAF8",
+      "canonical_rbps": [
+        "SCAF8"
+      ],
+      "bytes": 1264812,
+      "sha256": "c96106512992dfa6172e96528ac287643273aafb0c7175f6ef63490ff56406d2"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SDAD1.bed.gz",
+      "source_name": "SDAD1",
+      "canonical_rbps": [
+        "SDAD1"
+      ],
+      "bytes": 11134,
+      "sha256": "f33065e65f023e9210baf32b13d6c46923e744ba71e63c714a14ab59776c8bd2"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SERBP1.bed.gz",
+      "source_name": "SERBP1",
+      "canonical_rbps": [
+        "SERBP1"
+      ],
+      "bytes": 25866,
+      "sha256": "773bca1a564410abec70cc642cf135633cc53d61e0fa6582e7bb74ba74b360b2"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SF3A3.bed.gz",
+      "source_name": "SF3A3",
+      "canonical_rbps": [
+        "SF3A3"
+      ],
+      "bytes": 92129,
+      "sha256": "80b34f4ae846704c0909b42f825c2c4d032891c9efed343588953025958dcd7d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SF3B1.bed.gz",
+      "source_name": "SF3B1",
+      "canonical_rbps": [
+        "SF3B1"
+      ],
+      "bytes": 35621,
+      "sha256": "de8b379618e3318d35c83d03b5e2a1f75a89b0489456435d205792f920b32635"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SF3B4.bed.gz",
+      "source_name": "SF3B4",
+      "canonical_rbps": [
+        "SF3B4"
+      ],
+      "bytes": 206512,
+      "sha256": "8115c056e29a8e056433b3e0f34e0598bb8d65e4b66bafefd1334ce7e863eaf1"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SFPQ.bed.gz",
+      "source_name": "SFPQ",
+      "canonical_rbps": [
+        "SFPQ"
+      ],
+      "bytes": 11023,
+      "sha256": "6dad5671bf163ee69d9e917d126097b278db8a77ee02e6d0ad2f9dbd38989488"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SIRT7.bed.gz",
+      "source_name": "SIRT7",
+      "canonical_rbps": [
+        "SIRT7"
+      ],
+      "bytes": 4570,
+      "sha256": "1734c7ae50bb49064b9db55de8b7ecf42b0c93d45e81a719f8822a38ce67ddff"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SLBP.bed.gz",
+      "source_name": "SLBP",
+      "canonical_rbps": [
+        "SLBP"
+      ],
+      "bytes": 35852,
+      "sha256": "25c92ffe0ce2fe488730f52d475b1bd1600ba481463fbf8e591ba20006bcf71e"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SLTM.bed.gz",
+      "source_name": "SLTM",
+      "canonical_rbps": [
+        "SLTM"
+      ],
+      "bytes": 127096,
+      "sha256": "6308288978bd524e1fc6432c9f7ff57b6ff307e6c6a726d4b120e73cfb4e0254"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SMN1.bed.gz",
+      "source_name": "SMN1",
+      "canonical_rbps": [
+        "SMN1"
+      ],
+      "bytes": 351,
+      "sha256": "67d36089bcfc528db96602872389a58a0620f605dfb81361d37028f3bcac6e14"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SMNDC1.bed.gz",
+      "source_name": "SMNDC1",
+      "canonical_rbps": [
+        "SMNDC1"
+      ],
+      "bytes": 41944,
+      "sha256": "f9c1d7aaa54d143dfb48bafbb43759a52f81aa6239cb77c666b3471e26df9e44"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SND1.bed.gz",
+      "source_name": "SND1",
+      "canonical_rbps": [
+        "SND1"
+      ],
+      "bytes": 193114,
+      "sha256": "4696ee6a80f92c7b817343e2fbeb15a8f17734256493703a93ab36a7caf3b455"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SNRPA.bed.gz",
+      "source_name": "SNRPA",
+      "canonical_rbps": [
+        "SNRPA"
+      ],
+      "bytes": 17923,
+      "sha256": "820837a6360d004ba47c204bf19341a805a54e2121c36c2a5000c0b6873b8d60"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SOX2.bed.gz",
+      "source_name": "SOX2",
+      "canonical_rbps": [
+        "SOX2"
+      ],
+      "bytes": 718622,
+      "sha256": "e52e2204929680a09ca1c12f65c2575c726b9351fa0b46617fcef4cf8e667efc"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SP1.bed.gz",
+      "source_name": "SP1",
+      "canonical_rbps": [
+        "SP1"
+      ],
+      "bytes": 235100,
+      "sha256": "e81c2a2b07dcb625591b1d0181fb1b7114038cfdc93f553bbbc8e00ef588b272"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRRM4.bed.gz",
+      "source_name": "SRRM4",
+      "canonical_rbps": [
+        "SRRM4"
+      ],
+      "bytes": 215474,
+      "sha256": "afce41d18fc5370f14d343d04cd4633389e001b00ea012c0871f7cc354dd0718"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRSF1.bed.gz",
+      "source_name": "SRSF1",
+      "canonical_rbps": [
+        "SRSF1"
+      ],
+      "bytes": 556637,
+      "sha256": "47b00fbbae180dae3b47a154cdbdf6f20ddfe8d2a686089469a75df906302294"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRSF2.bed.gz",
+      "source_name": "SRSF2",
+      "canonical_rbps": [
+        "SRSF2"
+      ],
+      "bytes": 62620,
+      "sha256": "accdd43e80b3c9f24a253b496fa0ad4c910e93b27f7c27a319e9fabd744a2ea1"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRSF3.bed.gz",
+      "source_name": "SRSF3",
+      "canonical_rbps": [
+        "SRSF3"
+      ],
+      "bytes": 101955,
+      "sha256": "55efbc27451869d78af71d934d13c9bc8b1e181474bce3d14e565f4a25e9df7d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRSF5.bed.gz",
+      "source_name": "SRSF5",
+      "canonical_rbps": [
+        "SRSF5"
+      ],
+      "bytes": 5692,
+      "sha256": "74c951c0196c7977221c6a092693808226e528cdad98de953594ec48f67dd26b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRSF6.bed.gz",
+      "source_name": "SRSF6",
+      "canonical_rbps": [
+        "SRSF6"
+      ],
+      "bytes": 18866,
+      "sha256": "e7edb3f48048044f52bffd1ccd2cf9a65727eb1704e29b9286c1ef62fece2eb5"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRSF7.bed.gz",
+      "source_name": "SRSF7",
+      "canonical_rbps": [
+        "SRSF7"
+      ],
+      "bytes": 533010,
+      "sha256": "c568a1a3c9c3200a7b6e751b8b91da28e8f064eff5ab876842982f46bde1cb97"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SRSF9.bed.gz",
+      "source_name": "SRSF9",
+      "canonical_rbps": [
+        "SRSF9"
+      ],
+      "bytes": 185619,
+      "sha256": "5a0516d15eaab7fa974554034af81315ac0ac55f20a80f48e1be46886e838fa9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SSB.bed.gz",
+      "source_name": "SSB",
+      "canonical_rbps": [
+        "SSB"
+      ],
+      "bytes": 57343,
+      "sha256": "aa20bff3cbd7ea86876fd9636f8a308f49a247fd4e170d79a7eb924393c53308"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/STAU2.bed.gz",
+      "source_name": "STAU2",
+      "canonical_rbps": [
+        "STAU2"
+      ],
+      "bytes": 1389,
+      "sha256": "287523a33085ef0125d7230f06a35d34ae83a35d1563d9fc9966d895046f8688"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/SUPV3L1.bed.gz",
+      "source_name": "SUPV3L1",
+      "canonical_rbps": [
+        "SUPV3L1"
+      ],
+      "bytes": 434,
+      "sha256": "8f1cab05092465109a9d8bd7a540e31bb326b425b911bd9495c2a6b9c5368108"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TAF15.bed.gz",
+      "source_name": "TAF15",
+      "canonical_rbps": [
+        "TAF15"
+      ],
+      "bytes": 215013,
+      "sha256": "0eb795fd1395d49f57d1c8a53d27618ef28505b7d525c703d9372588bb47d0ad"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TARBP2.bed.gz",
+      "source_name": "TARBP2",
+      "canonical_rbps": [
+        "TARBP2"
+      ],
+      "bytes": 106839,
+      "sha256": "4437ccee9da4ed104071afb5e5353f81a7d4d9842950fda76e19fbb314150235"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TARDBP.bed.gz",
+      "source_name": "TARDBP",
+      "canonical_rbps": [
+        "TARDBP"
+      ],
+      "bytes": 1934901,
+      "sha256": "3eea98109ed864fb0c03c3bf37eac3543879bf44aa59fbc31fb7c9ef29af3ec7"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TENT4B.bed.gz",
+      "source_name": "TENT4B",
+      "canonical_rbps": [
+        "TENT4B"
+      ],
+      "bytes": 14820,
+      "sha256": "e5103205e1a0a6a056f73031068a9ea8a73012cde7b1b89aac73d93e7a6b2e1c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TFIP11.bed.gz",
+      "source_name": "TFIP11",
+      "canonical_rbps": [
+        "TFIP11"
+      ],
+      "bytes": 39745,
+      "sha256": "2628a81f9adfd45d74dfa1994e687d4b9f654d26e1d6d27f777c2582112a6fbf"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TIA1.bed.gz",
+      "source_name": "TIA1",
+      "canonical_rbps": [
+        "TIA1"
+      ],
+      "bytes": 313192,
+      "sha256": "6ff865d447219072c53f2544f664b11cb9bf0ae191ade016fd4106eba486228d"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TIAL1.bed.gz",
+      "source_name": "TIAL1",
+      "canonical_rbps": [
+        "TIAL1"
+      ],
+      "bytes": 54793,
+      "sha256": "d2e91aec7805957ab58b3e9d42985d95103191e57a2bb484e7485ff2993982be"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TNRC6A.bed.gz",
+      "source_name": "TNRC6A",
+      "canonical_rbps": [
+        "TNRC6A"
+      ],
+      "bytes": 30341,
+      "sha256": "7fd99d70585ee0ce57fadea1de2a564eaa08310da1393096037f27d51949183a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TNRC6B.bed.gz",
+      "source_name": "TNRC6B",
+      "canonical_rbps": [
+        "TNRC6B"
+      ],
+      "bytes": 1025,
+      "sha256": "55287e385597e131e6e89b4338b89a09edd499c83f59055d50a77deddc0c33e3"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TNRC6C.bed.gz",
+      "source_name": "TNRC6C",
+      "canonical_rbps": [
+        "TNRC6C"
+      ],
+      "bytes": 1730,
+      "sha256": "7ae6e22e2ac29a0cc95a213a7a9f44e873673e5518de491bbee37dbb0a001542"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TOP3B.bed.gz",
+      "source_name": "TOP3B",
+      "canonical_rbps": [
+        "TOP3B"
+      ],
+      "bytes": 13669,
+      "sha256": "61b6f031cc0a3bbdab55c833dbf86a7b624a45d0c4ceff8af0f0fb60936f1a59"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TRA2A.bed.gz",
+      "source_name": "TRA2A",
+      "canonical_rbps": [
+        "TRA2A"
+      ],
+      "bytes": 99814,
+      "sha256": "3f9250f157a620e7a180c18f7b0f72c6cc785effbcf4bc81c0ce8760da069466"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TRA2B.bed.gz",
+      "source_name": "TRA2B",
+      "canonical_rbps": [
+        "TRA2B"
+      ],
+      "bytes": 57096,
+      "sha256": "4f094e3286893ec514e075f742854fa3e40cb695fee62aac145f2245171a5c20"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TRIM25.bed.gz",
+      "source_name": "TRIM25",
+      "canonical_rbps": [
+        "TRIM25"
+      ],
+      "bytes": 13141,
+      "sha256": "8a181748cc301b0fde5dad96e05bf17d4de68e2b0d9a09a4e5d85db7cfaf4bc3"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TRMT10A.bed.gz",
+      "source_name": "TRMT10A",
+      "canonical_rbps": [
+        "TRMT10A"
+      ],
+      "bytes": 89487,
+      "sha256": "bc6f98123b99b81fb9ee47b467219581974dc92cc6c66cde042c1aa0a34a0bc9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TRMT13.bed.gz",
+      "source_name": "TRMT13",
+      "canonical_rbps": [
+        "TRMT13"
+      ],
+      "bytes": 273,
+      "sha256": "b1d424d38cf6f8ec2b3dfd99195100c4d5b99607a0dbde23946ecdc7b8cbe942"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/TUT1.bed.gz",
+      "source_name": "TUT1",
+      "canonical_rbps": [
+        "TUT1"
+      ],
+      "bytes": 1486,
+      "sha256": "fb88be32f572028ef92ebc9dad91fa5e597aa47d076c56f736788061bc4f9e38"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/U2AF1.bed.gz",
+      "source_name": "U2AF1",
+      "canonical_rbps": [
+        "U2AF1"
+      ],
+      "bytes": 1890411,
+      "sha256": "96e2eca791e98c90ad75ae22c7803b0402f9c10822d2654ac45f0f93703f1977"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/U2AF2.bed.gz",
+      "source_name": "U2AF2",
+      "canonical_rbps": [
+        "U2AF2"
+      ],
+      "bytes": 1572016,
+      "sha256": "e0a2233a88b3ee71be59a7e0a689106cd26c2879bc209d2b22773a025c763460"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/UPF1.bed.gz",
+      "source_name": "UPF1",
+      "canonical_rbps": [
+        "UPF1"
+      ],
+      "bytes": 493552,
+      "sha256": "0b95be77a1bf570fbf6339072c8b3e98a242781c14079ee9f799c2d123a3f014"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/UTP18.bed.gz",
+      "source_name": "UTP18",
+      "canonical_rbps": [
+        "UTP18"
+      ],
+      "bytes": 4002,
+      "sha256": "a8b37b2047d66556575b54d95fff250fc55f1329831339e2a14efdb8f5897dfc"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/UTP3.bed.gz",
+      "source_name": "UTP3",
+      "canonical_rbps": [
+        "UTP3"
+      ],
+      "bytes": 3025,
+      "sha256": "3b219f7810ff814568544c2c2f6ba1e7981627692306424880d08d0a3bacfac9"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/VIM.bed.gz",
+      "source_name": "VIM",
+      "canonical_rbps": [
+        "VIM"
+      ],
+      "bytes": 800,
+      "sha256": "ec74d1df7756a9ad23a68c8b091efae81fc89e00ea035672f943e935c93e3b71"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/WDR3.bed.gz",
+      "source_name": "WDR3",
+      "canonical_rbps": [
+        "WDR3"
+      ],
+      "bytes": 832,
+      "sha256": "4b8094cbd7dcfc810a12e2956d557d0241d41c1b22686b3243ace69e7194413a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/WDR33.bed.gz",
+      "source_name": "WDR33",
+      "canonical_rbps": [
+        "WDR33"
+      ],
+      "bytes": 516641,
+      "sha256": "4d35ba3fc8515f8b3cfa8e7b00fe5ae6dfd0313542e9dc6a8dd44725faa84364"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/WDR4.bed.gz",
+      "source_name": "WDR4",
+      "canonical_rbps": [
+        "WDR4"
+      ],
+      "bytes": 393345,
+      "sha256": "62aa1efc36433a4b510be4e391e49d1a451673097bcb6b2ea63c7f7d94a3c974"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/WDR43.bed.gz",
+      "source_name": "WDR43",
+      "canonical_rbps": [
+        "WDR43"
+      ],
+      "bytes": 5989,
+      "sha256": "a5bda984f68f8951d119b894d224dade513c177682e24d6f9b8016c34723d608"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/WRN.bed.gz",
+      "source_name": "WRN",
+      "canonical_rbps": [
+        "WRN"
+      ],
+      "bytes": 2384,
+      "sha256": "0275ef490cfa8617b8709fdd11efe4f5f2efe65ed7cc1a71f876cd86c439651b"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/WTAP.bed.gz",
+      "source_name": "WTAP",
+      "canonical_rbps": [
+        "WTAP"
+      ],
+      "bytes": 7487,
+      "sha256": "cdb4c8b97e02c01ead2c4c5a29a5a1a0c72474e9d9f3d0b1aabfb03e29e06979"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/XRN2.bed.gz",
+      "source_name": "XRN2",
+      "canonical_rbps": [
+        "XRN2"
+      ],
+      "bytes": 48951,
+      "sha256": "d5cc9e38c435b5ad1ff1b086f828153d306d60fbfc31ef3cbe7684a6184ed202"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YBX1.bed.gz",
+      "source_name": "YBX1",
+      "canonical_rbps": [
+        "YBX1"
+      ],
+      "bytes": 286434,
+      "sha256": "15f15f01a75a04687a0053cd79b1118f127c762117a673ee323bb760c1457c63"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YBX3.bed.gz",
+      "source_name": "YBX3",
+      "canonical_rbps": [
+        "YBX3"
+      ],
+      "bytes": 30313,
+      "sha256": "7e78d809e643f8d70a5d748d4a7091b27cb06744fb7461d063e692b95e54327f"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YTHDC1.bed.gz",
+      "source_name": "YTHDC1",
+      "canonical_rbps": [
+        "YTHDC1"
+      ],
+      "bytes": 572657,
+      "sha256": "4b56dc54f24da2ac8fb74cf86122255417bddb6b19770490467d467f75a4e2e6"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YTHDC2.bed.gz",
+      "source_name": "YTHDC2",
+      "canonical_rbps": [
+        "YTHDC2"
+      ],
+      "bytes": 8091,
+      "sha256": "cfce121c6f49143ed7b7a090f43099ad98907bbd1ec125d69e82a5443c3f7ade"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YTHDF1.bed.gz",
+      "source_name": "YTHDF1",
+      "canonical_rbps": [
+        "YTHDF1"
+      ],
+      "bytes": 789568,
+      "sha256": "9170b4dc49d6cb42a853b9e0970ed26dd368b326ba627bffc9fb527f8d1dac11"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YTHDF2.bed.gz",
+      "source_name": "YTHDF2",
+      "canonical_rbps": [
+        "YTHDF2"
+      ],
+      "bytes": 537026,
+      "sha256": "773858e1bb6122c52376de699704f3f21669b54a24673c9b373ffaf0e6b0535a"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YTHDF3.bed.gz",
+      "source_name": "YTHDF3",
+      "canonical_rbps": [
+        "YTHDF3"
+      ],
+      "bytes": 529277,
+      "sha256": "39fa2d39a08e870006d7b78619d8621a5109eee5f8d909168d533a86723ddbef"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/YWHAG.bed.gz",
+      "source_name": "YWHAG",
+      "canonical_rbps": [
+        "YWHAG"
+      ],
+      "bytes": 14165,
+      "sha256": "9e0f0deaca862e7d0b6513ded93f02d914840bc60dc952ec1230e9f4c9860792"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZC3H11A.bed.gz",
+      "source_name": "ZC3H11A",
+      "canonical_rbps": [
+        "ZC3H11A"
+      ],
+      "bytes": 24775,
+      "sha256": "0f775db31122949e84492aa7a32fc196c3626efddb564d320ff81143877c55e8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZC3H7B.bed.gz",
+      "source_name": "ZC3H7B",
+      "canonical_rbps": [
+        "ZC3H7B"
+      ],
+      "bytes": 262680,
+      "sha256": "55ce1b551264ab066cfaead78e41e828c71d111d47856587d17e004d0dcb0c4c"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZC3H8.bed.gz",
+      "source_name": "ZC3H8",
+      "canonical_rbps": [
+        "ZC3H8"
+      ],
+      "bytes": 2812,
+      "sha256": "42cb984ea40247bf8dbcd297b38a0ca478db6ba14193ff53487390c317e884d8"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZC3HAV1.bed.gz",
+      "source_name": "ZC3HAV1",
+      "canonical_rbps": [
+        "ZC3HAV1"
+      ],
+      "bytes": 241,
+      "sha256": "a356446fb5d9b5e267f7d3253620fd707578a166c1f6a7ac6f775a33ef81acdf"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZCCHC14.bed.gz",
+      "source_name": "ZCCHC14",
+      "canonical_rbps": [
+        "ZCCHC14"
+      ],
+      "bytes": 199464,
+      "sha256": "158dc68e381015cba1784d1e60832c4c1ebb5c29476a1073513cefc5c6a50170"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZCCHC4.bed.gz",
+      "source_name": "ZCCHC4",
+      "canonical_rbps": [
+        "ZCCHC4"
+      ],
+      "bytes": 9229,
+      "sha256": "b411e55917f71d5041ab9e9648acdc86a860bb6205018db2daa8a4bd38389c27"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZFP36.bed.gz",
+      "source_name": "ZFP36",
+      "canonical_rbps": [
+        "ZFP36"
+      ],
+      "bytes": 8061,
+      "sha256": "0bcf6b54277361baf79f3d007580469112ebd0dfbf70c086dcedd9f8e75a40eb"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZNF184.bed.gz",
+      "source_name": "ZNF184",
+      "canonical_rbps": [
+        "ZNF184"
+      ],
+      "bytes": 228,
+      "sha256": "b2d8ae84f73903e948dd0f9e346cad600d565b385f57706ab13574c4f225b378"
+    },
+    {
+      "group": "encori",
+      "path": "data/ENCORI/ZNF800.bed.gz",
+      "source_name": "ZNF800",
+      "canonical_rbps": [
+        "ZNF800"
+      ],
+      "bytes": 36207,
+      "sha256": "86ecf3b54d6b6eaf20aeb6cd05d7f4c6a2c5123b1961c4249b4603cc9c5b5e55"
+    },
+    {
+      "group": "expression",
+      "path": "data/Kate_231_0h_vs_6h_gene_counts_normalised.tsv",
+      "bytes": 2265757,
+      "sha256": "3e0130fbdbd3990bfa6f08a62f865514452d39613e01842b9b9bfc4a50e63efc"
+    },
+    {
+      "group": "expression",
+      "path": "data/OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv",
+      "bytes": 305007605,
+      "sha256": "0377be80c525fde98cbd2c6e8b06bdf2a4014a9683eb70182c1f8649d711021a"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/BCDIN3D_DataSet_636_degs.json",
+      "dataset_id": "DataSet_636",
+      "rbp": "BCDIN3D",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 497185,
+      "sha256": "4fb34f67fb675e7875b97f870df46f094cc1fc9b0d64c2489044ddd7b3d5cbcc"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/HNRNPC_DataSet_488_degs.json",
+      "dataset_id": "DataSet_488",
+      "rbp": "HNRNPC",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 26756,
+      "sha256": "4230fdbbc73b28d71efb00c495a609f35e129066d20792e2791565e655928b2f"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/LARP7_DataSet_436_degs.json",
+      "dataset_id": "DataSet_436",
+      "rbp": "LARP7",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 434652,
+      "sha256": "05ba641857946e73fbe9efde751b8ab1f97bb6b986f624c670e2ff3e30c591b8"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/LARP7_DataSet_437_degs.json",
+      "dataset_id": "DataSet_437",
+      "rbp": "LARP7",
+      "cell_line": "HCC1937",
+      "selected_by_default": false,
+      "bytes": 524848,
+      "sha256": "8a603e614ee4c770293b2f5c68b23ac55c777c0b2862a23635f8f06f97177e62"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/PABPC4_DataSet_489_degs.json",
+      "dataset_id": "DataSet_489",
+      "rbp": "PABPC4",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 454,
+      "sha256": "f8ab7730ce4e21815283a5d48b359eb9145802b3c3ff7c2030611785dfff34c9"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/PUS1_DataSet_185_degs.json",
+      "dataset_id": "DataSet_185",
+      "rbp": "PUS1",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 284980,
+      "sha256": "cec5f72d638ef2fc0952de09e3dddadaa1d32c348879bbf8d3cfa0030fb14a6e"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/RBMS1_DataSet_515_degs.json",
+      "dataset_id": "DataSet_515",
+      "rbp": "RBMS1",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 447269,
+      "sha256": "138ab0ee8c7cf51bb0c705792929ec0ee4bf1d3a8a57f343d3263453b8d010b8"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/RPL7_DataSet_377_degs.json",
+      "dataset_id": "DataSet_377",
+      "rbp": "RPL7",
+      "cell_line": "BT-549",
+      "selected_by_default": false,
+      "bytes": 386552,
+      "sha256": "923b2e2916ce4572113e8f4604841ec75d29d2f979178bbdcedaec6997893b25"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/RPL7_DataSet_379_degs.json",
+      "dataset_id": "DataSet_379",
+      "rbp": "RPL7",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 216751,
+      "sha256": "77e8bea6cd40e8757417c111558645fc10e14af05d4f4ed3aca70bd5d774a1bb"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/RUVBL2_DataSet_374_degs.json",
+      "dataset_id": "DataSet_374",
+      "rbp": "RUVBL2",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 699602,
+      "sha256": "2cc2563e711a42f2702e29e62a7f811bd61a63cfc32e3a68c627da3fcd6e311a"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/TRIM25_DataSet_345_degs.json",
+      "dataset_id": "DataSet_345",
+      "rbp": "TRIM25",
+      "cell_line": "BT-549",
+      "selected_by_default": false,
+      "bytes": 342138,
+      "sha256": "4979a15c78099ee5c38221e95d2cd538b62fa800c4d15775a20b741fae02f867"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/TRIM25_DataSet_346_degs.json",
+      "dataset_id": "DataSet_346",
+      "rbp": "TRIM25",
+      "cell_line": "MDA-MB-231",
+      "selected_by_default": true,
+      "bytes": 98588,
+      "sha256": "204825875928a28e43258821a5a86041b92d825731b562b7ecfa2ed60aeaf623"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/YTHDF2_DataSet_8_degs.json",
+      "dataset_id": "DataSet_8",
+      "rbp": "YTHDF2",
+      "cell_line": "MDA-MB-231-LM2",
+      "selected_by_default": true,
+      "bytes": 840652,
+      "sha256": "944d43213b0e730a2354a3210b67279c9dd5fd1c3a4a18f955607842ccfe8461"
+    },
+    {
+      "group": "knockrbp",
+      "path": "data/knockrbp/dataset_metadata.tsv",
+      "bytes": 1187,
+      "sha256": "7b2cb645e68b17501241bd0a697095d2e106c6ba226a91fecb21f2f9c5859688"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/A1CF.bed.gz",
+      "source_name": "A1CF",
+      "canonical_rbps": [
+        "A1CF"
+      ],
+      "bytes": 3015133,
+      "sha256": "cc0d494176baf8edd0bdfdcb59d20e12688f8688db9059b7e25a8945155dcad4"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/A2BP1.bed.gz",
+      "source_name": "A2BP1",
+      "canonical_rbps": [
+        "RBFOX1"
+      ],
+      "bytes": 205519,
+      "sha256": "4fcff6e831a95e90eadd6348132fa9ad7bc63c0e471f3e46dce717e4526655cb"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ANKHD1.bed.gz",
+      "source_name": "ANKHD1",
+      "canonical_rbps": [
+        "ANKHD1"
+      ],
+      "bytes": 75960,
+      "sha256": "916f147c946df85e23ae738401735a0ab076a63791fe21b4c20eed3cd496b60c"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/BOLL.bed.gz",
+      "source_name": "BOLL",
+      "canonical_rbps": [
+        "BOLL"
+      ],
+      "bytes": 7952448,
+      "sha256": "a2b0b747b7c4c3c44d90a4be0abd1ff0132847b7e4ee89b249826275e15bea03"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/BRUNOL4.bed.gz",
+      "source_name": "BRUNOL4",
+      "canonical_rbps": [
+        "CELF4"
+      ],
+      "bytes": 1796716,
+      "sha256": "5cccf12e870249460f5a2346eebe6b73cdd0a1ebdcc7acc15f0db87251ed26da"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/BRUNOL5.bed.gz",
+      "source_name": "BRUNOL5",
+      "canonical_rbps": [
+        "CELF5"
+      ],
+      "bytes": 1038989,
+      "sha256": "56e897cfe12a05a5ac89d70ed850af17585516b610f5321f92693f4d9466af25"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/BRUNOL6.bed.gz",
+      "source_name": "BRUNOL6",
+      "canonical_rbps": [
+        "CELF6"
+      ],
+      "bytes": 1022185,
+      "sha256": "29f52be7bbd8db21f5053f98d79fb6506ebf5a5de9cb806a3d1de75f132cd54c"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/CELF1.bed.gz",
+      "source_name": "CELF1",
+      "canonical_rbps": [
+        "CELF1"
+      ],
+      "bytes": 3453425,
+      "sha256": "9e60cbc01990fa02eb299ba5d2cf6c94ac1e1dee0de1c45546a7812e0c23c8d6"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/CNOT4.bed.gz",
+      "source_name": "CNOT4",
+      "canonical_rbps": [
+        "CNOT4"
+      ],
+      "bytes": 3426890,
+      "sha256": "fdda2d3f1d4dd79b72f863806045a24eb9706ab4672bbe2c78b6616d508a8395"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/CPEB1.bed.gz",
+      "source_name": "CPEB1",
+      "canonical_rbps": [
+        "CPEB1"
+      ],
+      "bytes": 773605,
+      "sha256": "3f5d39ede393366144ab9cc80bcafd56adc8a35d1031aa6866efba7ff5e7ff7f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/CPEB2.bed.gz",
+      "source_name": "CPEB2",
+      "canonical_rbps": [
+        "CPEB2"
+      ],
+      "bytes": 1367502,
+      "sha256": "bf78275927377643acc6b73ec91dfc32893e67be157f326fa6618dca859043d2"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/CPEB4.bed.gz",
+      "source_name": "CPEB4",
+      "canonical_rbps": [
+        "CPEB4"
+      ],
+      "bytes": 1219099,
+      "sha256": "4a56b48e1e6fa04900bae91d6e6457874d6d6a1df8dc238eac812f0907438e5e"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/DAZ3.bed.gz",
+      "source_name": "DAZ3",
+      "canonical_rbps": [
+        "DAZ3"
+      ],
+      "bytes": 6326477,
+      "sha256": "f77a79b27f5d53250392d74d544fd0c2180903c3df2a8a333954322d75c1215c"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/DAZAP1.bed.gz",
+      "source_name": "DAZAP1",
+      "canonical_rbps": [
+        "DAZAP1"
+      ],
+      "bytes": 3158743,
+      "sha256": "8a55a0ee90d9b8ec0125a5f609f9d648b7507a22050743c6e2b60f1ba8e72cdd"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/EIF4B.bed.gz",
+      "source_name": "EIF4B",
+      "canonical_rbps": [
+        "EIF4B"
+      ],
+      "bytes": 1493792,
+      "sha256": "ff263e813d9cc4765cf0967ef25be4d172374a480229f6d0751749cf5583ead8"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/EIF4G2.bed.gz",
+      "source_name": "EIF4G2",
+      "canonical_rbps": [
+        "EIF4G2"
+      ],
+      "bytes": 1065908,
+      "sha256": "e1fb9aff769fcfeffb5ca82f699d5907de3aea999dbd27e87928bcfc5e3aed70"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ELAVL1.bed.gz",
+      "source_name": "ELAVL1",
+      "canonical_rbps": [
+        "ELAVL1"
+      ],
+      "bytes": 4339621,
+      "sha256": "16beb0901f46fd5075b851665c93313e4944c9a05f111debb29f080c2e5c0c0d"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ELAVL4.bed.gz",
+      "source_name": "ELAVL4",
+      "canonical_rbps": [
+        "ELAVL4"
+      ],
+      "bytes": 4291991,
+      "sha256": "731684752be83d5c0df2734623393161747f88f7daccc9bc556b971ed7751f8c"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ENOX1.bed.gz",
+      "source_name": "ENOX1",
+      "canonical_rbps": [
+        "ENOX1"
+      ],
+      "bytes": 1715803,
+      "sha256": "933e30a63bda87d00da41b2cc5a3e5263921139d430ffdf16fa4c9f67750c53e"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ESRP1.bed.gz",
+      "source_name": "ESRP1",
+      "canonical_rbps": [
+        "ESRP1"
+      ],
+      "bytes": 4836053,
+      "sha256": "40ffda804678343f941124b3ec63322f778eb1afd8769e0bc62734f6ac1b868e"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ESRP2.bed.gz",
+      "source_name": "ESRP2",
+      "canonical_rbps": [
+        "ESRP2"
+      ],
+      "bytes": 1368164,
+      "sha256": "317b7e262d7aeb7827baa72509bd6ee43d7120460a978c002b38e57ab0a1f445"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/EWSR1.bed.gz",
+      "source_name": "EWSR1",
+      "canonical_rbps": [
+        "EWSR1"
+      ],
+      "bytes": 8388257,
+      "sha256": "45b10f32d3661e8989670c70603829eb8434856bea0f5991fe79522f782218b5"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/FUBP1.bed.gz",
+      "source_name": "FUBP1",
+      "canonical_rbps": [
+        "FUBP1"
+      ],
+      "bytes": 6947626,
+      "sha256": "6f86779b8af3c9cc400f04c96f4d7e043d13493db9415c9757f2e302898405cd"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/FUBP3.bed.gz",
+      "source_name": "FUBP3",
+      "canonical_rbps": [
+        "FUBP3"
+      ],
+      "bytes": 3193013,
+      "sha256": "97522b240d4d57ce42183e5c4358701459d89df83673d56e23cfcec9192a4333"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/FUS.bed.gz",
+      "source_name": "FUS",
+      "canonical_rbps": [
+        "FUS"
+      ],
+      "bytes": 257433,
+      "sha256": "b3ef04a92d1abd75dd858a12a8eccd0e03c72cc3f7b8fe9d63c5896391a27c9d"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/FXR2.bed.gz",
+      "source_name": "FXR2",
+      "canonical_rbps": [
+        "FXR2"
+      ],
+      "bytes": 686842,
+      "sha256": "38983b7bbe45eee93fec91bf8a917d21e5e503c1b515754e8aeff0fead6c65da"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/Fmr1.bed.gz",
+      "source_name": "Fmr1",
+      "canonical_rbps": [
+        "FMR1"
+      ],
+      "bytes": 2795379,
+      "sha256": "ba847864ef6a5b0706cda1b0863de8b2d56265a0e341bd92237525f1991a53d7"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/G3BP2.bed.gz",
+      "source_name": "G3BP2",
+      "canonical_rbps": [
+        "G3BP2"
+      ],
+      "bytes": 578412,
+      "sha256": "4449325b66453074b1e1e8bbc1c9214002be343e88faf88c41d1bfd976e15548"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPA0.bed.gz",
+      "source_name": "HNRNPA0",
+      "canonical_rbps": [
+        "HNRNPA0"
+      ],
+      "bytes": 1835856,
+      "sha256": "ca21f4e3b65d62f8ef3bce3de5b9c259213360a1b4c8c7e61d9aa97963de8ecd"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPA1.bed.gz",
+      "source_name": "HNRNPA1",
+      "canonical_rbps": [
+        "HNRNPA1"
+      ],
+      "bytes": 194732,
+      "sha256": "0c8dee4ed0b52d8da556fcbb48111939555c6b9c25fc90995d6157a505eae454"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPA1L2.bed.gz",
+      "source_name": "HNRNPA1L2",
+      "canonical_rbps": [
+        "HNRNPA1L2"
+      ],
+      "bytes": 221182,
+      "sha256": "9b536576685b6584d48a77f5f2a0f2f51d5a84d5b1013eec037f1927c804e795"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPA2B1.bed.gz",
+      "source_name": "HNRNPA2B1",
+      "canonical_rbps": [
+        "HNRNPA2B1"
+      ],
+      "bytes": 1727671,
+      "sha256": "94c6fba9572fbb1f46d0ac51b7abbee00d5a8ab0f1dda867bc8fa8ee071fe387"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPAB.bed.gz",
+      "source_name": "HNRNPAB",
+      "canonical_rbps": [
+        "HNRNPAB"
+      ],
+      "bytes": 683291,
+      "sha256": "83d7eba209299e3155f8a9879fbcdd12168d114b04f486a5b5785f54e971f385"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPC.bed.gz",
+      "source_name": "HNRNPC",
+      "canonical_rbps": [
+        "HNRNPC"
+      ],
+      "bytes": 2255603,
+      "sha256": "335e2b285125a3f69fc692bc90ce75e856c03e25134a1028dc4c2f9227a7761b"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPCL1.bed.gz",
+      "source_name": "HNRNPCL1",
+      "canonical_rbps": [
+        "HNRNPCL1"
+      ],
+      "bytes": 9223090,
+      "sha256": "dd0605fdd8d191197b604421ae6c939359815316b662e9be6825ae4be47df8b8"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPD.bed.gz",
+      "source_name": "HNRNPD",
+      "canonical_rbps": [
+        "HNRNPD"
+      ],
+      "bytes": 4149705,
+      "sha256": "4df3b18fa611aef022fb0660bb7a9b7714384d7617c4ba755f21c861a9f57821"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPDL.bed.gz",
+      "source_name": "HNRNPDL",
+      "canonical_rbps": [
+        "HNRNPDL"
+      ],
+      "bytes": 3063592,
+      "sha256": "d7d092f49e7cc16ff95bd1bf9cdffa5e51b2ad7b9a88599f1d20459f8ecdee7c"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPF.bed.gz",
+      "source_name": "HNRNPF",
+      "canonical_rbps": [
+        "HNRNPF"
+      ],
+      "bytes": 4647000,
+      "sha256": "de89997f0078772ae43a731c45691a0fb20d4fdf8b2473b280e2490129c39610"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPH2.bed.gz",
+      "source_name": "HNRNPH2",
+      "canonical_rbps": [
+        "HNRNPH2"
+      ],
+      "bytes": 3639677,
+      "sha256": "da69de2357dc43fc2a3e5fa1403cdc84c234dacbb3f05fc524e19f3087be0b4d"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPK.bed.gz",
+      "source_name": "HNRNPK",
+      "canonical_rbps": [
+        "HNRNPK"
+      ],
+      "bytes": 5156417,
+      "sha256": "742b13baa0eed95ecd0702b5b8cd2ecd2435818ef10b7a1a3f047ab69ab5729f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/HNRNPL.bed.gz",
+      "source_name": "HNRNPL",
+      "canonical_rbps": [
+        "HNRNPL"
+      ],
+      "bytes": 2686208,
+      "sha256": "aced9e221278e5b19cbf81dccdeb2eb69d45adb1b035bcd27f9ebb8800d5e901"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/IGF2BP1.bed.gz",
+      "source_name": "IGF2BP1",
+      "canonical_rbps": [
+        "IGF2BP1"
+      ],
+      "bytes": 1772255,
+      "sha256": "b066d619db222d4519ad022f9884f90fe145f5bd787c4060871fbaf8e8178ec4"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/IGF2BP2.bed.gz",
+      "source_name": "IGF2BP2",
+      "canonical_rbps": [
+        "IGF2BP2"
+      ],
+      "bytes": 4798350,
+      "sha256": "de6f9eff7aca134802b1fa3ae72a19a468384335c3ff9daa309d92a4ebcb5922"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/IGF2BP3.bed.gz",
+      "source_name": "IGF2BP3",
+      "canonical_rbps": [
+        "IGF2BP3"
+      ],
+      "bytes": 5078418,
+      "sha256": "b666734316cfe3d76091aa76740dc3e48bc5181334976284e22815779b38fca5"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ILF2.bed.gz",
+      "source_name": "ILF2",
+      "canonical_rbps": [
+        "ILF2"
+      ],
+      "bytes": 5021964,
+      "sha256": "4b7470e9dbd8ee113372b36e9f4443657617cf8615613030b9a6a6ee2eb7fdac"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/KHDRBS2.bed.gz",
+      "source_name": "KHDRBS2",
+      "canonical_rbps": [
+        "KHDRBS2"
+      ],
+      "bytes": 5560900,
+      "sha256": "2ad6e391b0c6c9009b2631fe9807d34fea7c24adea8c47987a4afda6a819295d"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/KHDRBS3.bed.gz",
+      "source_name": "KHDRBS3",
+      "canonical_rbps": [
+        "KHDRBS3"
+      ],
+      "bytes": 4255702,
+      "sha256": "5d16c1b3ff20914491045616e90fc4b8f8963ead24638d87de320f9bcfc5a08b"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/KHSRP.bed.gz",
+      "source_name": "KHSRP",
+      "canonical_rbps": [
+        "KHSRP"
+      ],
+      "bytes": 4028948,
+      "sha256": "c8103f7cc8ab9a4e7510a637b4fd560470d85fdb0292876493ddb23b59f3b300"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/Khdrbs1.bed.gz",
+      "source_name": "Khdrbs1",
+      "canonical_rbps": [
+        "KHDRBS1"
+      ],
+      "bytes": 547152,
+      "sha256": "4f066ed98efc695300bf58c973351a485016338add063a936e5940fa7942e33d"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/LIN28A.bed.gz",
+      "source_name": "LIN28A",
+      "canonical_rbps": [
+        "LIN28A"
+      ],
+      "bytes": 3466778,
+      "sha256": "d8e38958ac1283c327bb8065d8f3b0db688ed33ace013f6e5f54a294d070863f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/MATR3.bed.gz",
+      "source_name": "MATR3",
+      "canonical_rbps": [
+        "MATR3"
+      ],
+      "bytes": 409697,
+      "sha256": "4b18637140dc0f8899884a7f482a120a91da52b41a05eb850d5b59bcaf87c043"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/MBNL1.bed.gz",
+      "source_name": "MBNL1",
+      "canonical_rbps": [
+        "MBNL1"
+      ],
+      "bytes": 3626732,
+      "sha256": "f3e9d532784990afd1c9e25faac2c4669e8cded23f7732acdd8cdbb2eed43177"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/MSI1.bed.gz",
+      "source_name": "MSI1",
+      "canonical_rbps": [
+        "MSI1"
+      ],
+      "bytes": 2839928,
+      "sha256": "88865c6681c30757b3aea97080fbc6a9b33555e4f67609c1a7c7069462d1e918"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/NOVA1.bed.gz",
+      "source_name": "NOVA1",
+      "canonical_rbps": [
+        "NOVA1"
+      ],
+      "bytes": 4870838,
+      "sha256": "b17be0ecb86a5505133bb6cf627cbc9cb6ee099af775d9bc25ce69d5370dae6f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/NUPL2.bed.gz",
+      "source_name": "NUPL2",
+      "canonical_rbps": [
+        "NUPL2"
+      ],
+      "bytes": 7937457,
+      "sha256": "83cce445c14cc4aa7cc631a0910501c352a68e8bbb224e6e7bfa6ef8bce69510"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PABPC1.bed.gz",
+      "source_name": "PABPC1",
+      "canonical_rbps": [
+        "PABPC1"
+      ],
+      "bytes": 2369273,
+      "sha256": "e58a4a70955c3a381c547bbdacb7ccb8265c7b71d5842209869817f8fb29f436"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PABPC3.bed.gz",
+      "source_name": "PABPC3",
+      "canonical_rbps": [
+        "PABPC3"
+      ],
+      "bytes": 594885,
+      "sha256": "ade59253c2e8fac75028c561c499880d33e01a141d1818e1772d4efce7e50def"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PABPC4.bed.gz",
+      "source_name": "PABPC4",
+      "canonical_rbps": [
+        "PABPC4"
+      ],
+      "bytes": 1721220,
+      "sha256": "14567a19e937a907eeda9f01fcf6c2e665f13136bdcd795c48a2d62f2915ccd8"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PABPC5.bed.gz",
+      "source_name": "PABPC5",
+      "canonical_rbps": [
+        "PABPC5"
+      ],
+      "bytes": 1843115,
+      "sha256": "c68a4e402648758a87bd2aa529a4ad5885f87afe933f29c7491abfef6e864327"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PABPN1.bed.gz",
+      "source_name": "PABPN1",
+      "canonical_rbps": [
+        "PABPN1"
+      ],
+      "bytes": 1067732,
+      "sha256": "00f99cff6041ce8c124df305ea1123e9c8c60c5e4da6e1a56b60b15b0ab3d2d2"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PABPN1L.bed.gz",
+      "source_name": "PABPN1L",
+      "canonical_rbps": [
+        "PABPN1L"
+      ],
+      "bytes": 5667846,
+      "sha256": "42560d42f0b865aaae1b415b22e937903780809ad45e72c2a5c65fd9cf0eb7f2"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PCBP1.bed.gz",
+      "source_name": "PCBP1",
+      "canonical_rbps": [
+        "PCBP1"
+      ],
+      "bytes": 4631256,
+      "sha256": "78813f745df7cd2eede2ba427a7d53a80e1cc3f486d428a122867882a2a81dcd"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PCBP2.bed.gz",
+      "source_name": "PCBP2",
+      "canonical_rbps": [
+        "PCBP2"
+      ],
+      "bytes": 8478144,
+      "sha256": "8f04d30380f58fee65332b12915a80b32861c1ce043eeee015bec10b10f229da"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PCBP4.bed.gz",
+      "source_name": "PCBP4",
+      "canonical_rbps": [
+        "PCBP4"
+      ],
+      "bytes": 3092915,
+      "sha256": "ecd69f3ed2c98bbe8cb409f4ca488f80fbed7104238670b18c305a3376e0e5b6"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PPRC1.bed.gz",
+      "source_name": "PPRC1",
+      "canonical_rbps": [
+        "PPRC1"
+      ],
+      "bytes": 1010393,
+      "sha256": "351fab12ce04caa1ec3c9ce57c1688d61d6ee560830fa71981f6c23346f0d18b"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PRR3.bed.gz",
+      "source_name": "PRR3",
+      "canonical_rbps": [
+        "PRR3"
+      ],
+      "bytes": 1944538,
+      "sha256": "e58b98f669481b147e80b5326273a3f95382c0e55c79e0b39193430d45b4850f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PTBP1.bed.gz",
+      "source_name": "PTBP1",
+      "canonical_rbps": [
+        "PTBP1"
+      ],
+      "bytes": 3438695,
+      "sha256": "2dd80fb063f4cb27afcce651c136826ad1ff419ea0f18c2926cda080777c15a6"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PTBP3.bed.gz",
+      "source_name": "PTBP3",
+      "canonical_rbps": [
+        "PTBP3"
+      ],
+      "bytes": 3383004,
+      "sha256": "132c30dfc1039b258ee6d583b4af61647dfaa689a8ab179adc0440cda3a00478"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PUF60.bed.gz",
+      "source_name": "PUF60",
+      "canonical_rbps": [
+        "PUF60"
+      ],
+      "bytes": 2617624,
+      "sha256": "ed51ca7c4f30dd1cf938e65873dab0c5cf2140048aba1fc6217e630596950b0e"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/PUM1.bed.gz",
+      "source_name": "PUM1",
+      "canonical_rbps": [
+        "PUM1"
+      ],
+      "bytes": 964856,
+      "sha256": "b073995dd0b434102f06a6a85f3da2d458f2b6788bcf93202617a60ff4076658"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/QKI.bed.gz",
+      "source_name": "QKI",
+      "canonical_rbps": [
+        "QKI"
+      ],
+      "bytes": 97815,
+      "sha256": "d71a6f0751fbc9858bded82474ce776970b1f86fee381fc67e1b46e43edc4458"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RALY.bed.gz",
+      "source_name": "RALY",
+      "canonical_rbps": [
+        "RALY"
+      ],
+      "bytes": 1146227,
+      "sha256": "7563c669130aa6b74c2d877c0022062afea6e44f9c9b933f0152a32268be6e07"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RALYL.bed.gz",
+      "source_name": "RALYL",
+      "canonical_rbps": [
+        "RALYL"
+      ],
+      "bytes": 11958105,
+      "sha256": "d1e70362fb7968877418b73a24771fb422faf41ff78541eea947dabd0f878367"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBFOX2.bed.gz",
+      "source_name": "RBFOX2",
+      "canonical_rbps": [
+        "RBFOX2"
+      ],
+      "bytes": 440938,
+      "sha256": "ff040511fa99d24b8d42ad374446efaaa522be5106332131427fe6e24d5f8bfb"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBFOX3.bed.gz",
+      "source_name": "RBFOX3",
+      "canonical_rbps": [
+        "RBFOX3"
+      ],
+      "bytes": 391949,
+      "sha256": "a715c2ec304513c6aa2d83173fdb11fbdcaf702d5147a2a26130ca50dfeaafec"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM15B.bed.gz",
+      "source_name": "RBM15B",
+      "canonical_rbps": [
+        "RBM15B"
+      ],
+      "bytes": 6795263,
+      "sha256": "f951568e4e8d244cce41da0fbbf347a948f30f26e044039f1e9334be2d0efcea"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM22.bed.gz",
+      "source_name": "RBM22",
+      "canonical_rbps": [
+        "RBM22"
+      ],
+      "bytes": 11984,
+      "sha256": "7a29696c29b1ea9f35773c95593673f562ee1dcec70593f8c86258f8ed5ed478"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM23.bed.gz",
+      "source_name": "RBM23",
+      "canonical_rbps": [
+        "RBM23"
+      ],
+      "bytes": 1729537,
+      "sha256": "ab767e5c9ad551b3c8053e6df5cfdac11ceeb83bbe816f2de5dc56d8e6ac4f00"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM24.bed.gz",
+      "source_name": "RBM24",
+      "canonical_rbps": [
+        "RBM24"
+      ],
+      "bytes": 3227602,
+      "sha256": "77c567c49be654076ae6f1eb38aa53a8871200e1b756b7dff6fbe21cda016adb"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM25.bed.gz",
+      "source_name": "RBM25",
+      "canonical_rbps": [
+        "RBM25"
+      ],
+      "bytes": 2372566,
+      "sha256": "99310360a4c893f9506f46829eab9c8d7316d94c034dad24f4d806e809a226cf"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM28.bed.gz",
+      "source_name": "RBM28",
+      "canonical_rbps": [
+        "RBM28"
+      ],
+      "bytes": 191250,
+      "sha256": "3d573c4b3a3872164f92ecb35bc71d7903305d57f0ad39a22e1a6091ae62476a"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM3.bed.gz",
+      "source_name": "RBM3",
+      "canonical_rbps": [
+        "RBM3"
+      ],
+      "bytes": 1709320,
+      "sha256": "de83d01456331536eaae22479090ddf05e93ae38d5aa1cce47db4ab712bbe956"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM4.bed.gz",
+      "source_name": "RBM4",
+      "canonical_rbps": [
+        "RBM4"
+      ],
+      "bytes": 1146433,
+      "sha256": "7edc73b165b9cde3deffe58c53a4368dff32643d5816ef09319ec14930b5f056"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM41.bed.gz",
+      "source_name": "RBM41",
+      "canonical_rbps": [
+        "RBM41"
+      ],
+      "bytes": 1006321,
+      "sha256": "650842f96bad8def980b44842aa4cd428c998579aebe091247d8b2b7bedbf0ca"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM42.bed.gz",
+      "source_name": "RBM42",
+      "canonical_rbps": [
+        "RBM42"
+      ],
+      "bytes": 283764,
+      "sha256": "7358e0454fc89544f5a9d058e37ad71966b7a8e37f919e62f8ed013319e4bf12"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM45.bed.gz",
+      "source_name": "RBM45",
+      "canonical_rbps": [
+        "RBM45"
+      ],
+      "bytes": 1065502,
+      "sha256": "dcaf7aa97fc6c1a1dbf63d97f15304a4c2cc15d1e7c4005921ffd077b011bf88"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM46.bed.gz",
+      "source_name": "RBM46",
+      "canonical_rbps": [
+        "RBM46"
+      ],
+      "bytes": 1095249,
+      "sha256": "3adac590e459e2c8883f1080c98abc48306cbaee87301987ce879a580063d648"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM47.bed.gz",
+      "source_name": "RBM47",
+      "canonical_rbps": [
+        "RBM47"
+      ],
+      "bytes": 2107519,
+      "sha256": "dcd9f7628d26a21bd4b1a9bf577fadf6d20208f319fe62520b289cd8eddf668b"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM4B.bed.gz",
+      "source_name": "RBM4B",
+      "canonical_rbps": [
+        "RBM4B"
+      ],
+      "bytes": 1711825,
+      "sha256": "5552954bbb1d20dca20745efba5aa523c2189776ab39ce3d1724ad9ea8a58397"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM5.bed.gz",
+      "source_name": "RBM5",
+      "canonical_rbps": [
+        "RBM5"
+      ],
+      "bytes": 3223958,
+      "sha256": "3bb21bd64cb0426d78dbf6737ffdd18ed6715d975d9e709f216e67697aa09152"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM6.bed.gz",
+      "source_name": "RBM6",
+      "canonical_rbps": [
+        "RBM6"
+      ],
+      "bytes": 5205661,
+      "sha256": "a3b0738196d7cde1814506632937e0fa4b73ac0999d0a9afea49fa4d7dddc904"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBM8A.bed.gz",
+      "source_name": "RBM8A",
+      "canonical_rbps": [
+        "RBM8A"
+      ],
+      "bytes": 548392,
+      "sha256": "ca1eb888b0785f207244a333ec1ef873ae9436be420a29948b3785344dcc2f3e"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBMS1.bed.gz",
+      "source_name": "RBMS1",
+      "canonical_rbps": [
+        "RBMS1"
+      ],
+      "bytes": 329737,
+      "sha256": "b7ae5e26241756d18cfe10ac396bec41053bf893d0be4cd192eafca1a29992bb"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBMS2.bed.gz",
+      "source_name": "RBMS2",
+      "canonical_rbps": [
+        "RBMS2"
+      ],
+      "bytes": 2641238,
+      "sha256": "2923a0a54914fa216fd2a3761814ab07ad4dad7339746049a917a5456f029993"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RBMS3.bed.gz",
+      "source_name": "RBMS3",
+      "canonical_rbps": [
+        "RBMS3"
+      ],
+      "bytes": 3664370,
+      "sha256": "baefe9e592857b01d4b7ed4da79b4f435c2e240e15b96b718c2f1bdf89ed9b1f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/RC3H1.bed.gz",
+      "source_name": "RC3H1",
+      "canonical_rbps": [
+        "RC3H1"
+      ],
+      "bytes": 4867160,
+      "sha256": "5b730fb13e7317920f44d2887b7fdbfc2164e851aea40c05330ada2bdd32a6e0"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/Rbm38.bed.gz",
+      "source_name": "Rbm38",
+      "canonical_rbps": [
+        "RBM38"
+      ],
+      "bytes": 1075920,
+      "sha256": "cb8cfac71d1b5ff109144e2ddacd404923ac51c2d351f5e2e759dfe03d26bb77"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/Rbp1.bed.gz",
+      "source_name": "Rbp1",
+      "canonical_rbps": [
+        "RBP1"
+      ],
+      "bytes": 253843,
+      "sha256": "cff483add361f1796ece6770fbeac02f02415aa9890a2f4ae650a644bf001ccd"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/Rbp1like.bed.gz",
+      "source_name": "Rbp1like",
+      "canonical_rbps": [
+        "RBP1LIKE"
+      ],
+      "bytes": 421548,
+      "sha256": "d5960346e6d16de3ea6c1434aeaa007a4cc086fe9a77bd00d5ac17a66af2c626"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/Rbp9.bed.gz",
+      "source_name": "Rbp9",
+      "canonical_rbps": [
+        "RBP9"
+      ],
+      "bytes": 771210,
+      "sha256": "0558806285b725ed41d1fcb2dd2f9e27a8804e8fc26195cf1c00059001ce894f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/Rsf1.bed.gz",
+      "source_name": "Rsf1",
+      "canonical_rbps": [
+        "RSF1"
+      ],
+      "bytes": 37209,
+      "sha256": "fd9a35dd37b27ef509805c9710e6002829810f8c1f6eb694438171b0305eb391"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SAMD4A.bed.gz",
+      "source_name": "SAMD4A",
+      "canonical_rbps": [
+        "SAMD4A"
+      ],
+      "bytes": 782957,
+      "sha256": "522cf9ceef1c4b24ab77565b17ebbafa65bc1b299c591927c898aa4f29ebee0f"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SART3.bed.gz",
+      "source_name": "SART3",
+      "canonical_rbps": [
+        "SART3"
+      ],
+      "bytes": 1917146,
+      "sha256": "137cbfec9db7d2693d08ade220d22e3dfe9b5e1324fc362577f3f739ea0d2919"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SF1.bed.gz",
+      "source_name": "SF1",
+      "canonical_rbps": [
+        "SF1"
+      ],
+      "bytes": 2050815,
+      "sha256": "e064bd29912d07933ff88ebeefa4fb1eac4f7f90724e537cac9398fb1e4fd8ad"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SF2.bed.gz",
+      "source_name": "SF2",
+      "canonical_rbps": [
+        "SRSF1"
+      ],
+      "bytes": 1125189,
+      "sha256": "0abe708063933b83ddcaf8f407d6f483cbf7778b96008da4a5ffff60611adf4d"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SFPQ.bed.gz",
+      "source_name": "SFPQ",
+      "canonical_rbps": [
+        "SFPQ"
+      ],
+      "bytes": 1983626,
+      "sha256": "6e519d154cabad45aab2cdba6f7635db971645abe8e874fad6f40654c656898b"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SNRNP70.bed.gz",
+      "source_name": "SNRNP70",
+      "canonical_rbps": [
+        "SNRNP70"
+      ],
+      "bytes": 363598,
+      "sha256": "01881a06d1b759b8bd590c28c614a353dcdfe25d379a641d172c3935d9615a03"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SNRPA.bed.gz",
+      "source_name": "SNRPA",
+      "canonical_rbps": [
+        "SNRPA"
+      ],
+      "bytes": 1939225,
+      "sha256": "0819debc4db0226ab358b219829372e69dbc38d54f2bbf0217ff2c9f29a0bce2"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF1.bed.gz",
+      "source_name": "SRSF1",
+      "canonical_rbps": [
+        "SRSF1"
+      ],
+      "bytes": 3030418,
+      "sha256": "16d766cb1f61f9516d386f7c3ed505c190e86368cc2a8bcc7376b12fab236e1c"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF10.bed.gz",
+      "source_name": "SRSF10",
+      "canonical_rbps": [
+        "SRSF10"
+      ],
+      "bytes": 1751869,
+      "sha256": "e74082b6b5a7f614ebd2af07b62f6f3866777d89af6385212cfd46ece7d310cc"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF11.bed.gz",
+      "source_name": "SRSF11",
+      "canonical_rbps": [
+        "SRSF11"
+      ],
+      "bytes": 1641325,
+      "sha256": "c6debf2b662d11f7914d0721bb4479089e0d417301a12dc37dad3b0a318d8fb3"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF2.bed.gz",
+      "source_name": "SRSF2",
+      "canonical_rbps": [
+        "SRSF2"
+      ],
+      "bytes": 2848741,
+      "sha256": "ca0d382c433af8d36a961f91547e68898cddb4acb17df8acc68500ab79fa9ba4"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF4.bed.gz",
+      "source_name": "SRSF4",
+      "canonical_rbps": [
+        "SRSF4"
+      ],
+      "bytes": 612079,
+      "sha256": "ff1ce7e69dfc0ff22a979b3638e715ebc4d66dbcfc3d7a95f4b9072fddba5b25"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF5.bed.gz",
+      "source_name": "SRSF5",
+      "canonical_rbps": [
+        "SRSF5"
+      ],
+      "bytes": 3722032,
+      "sha256": "80bb14801b111eb1b262d7c203c4a34760060c332922d031f9458cc634858dc1"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF8.bed.gz",
+      "source_name": "SRSF8",
+      "canonical_rbps": [
+        "SRSF8"
+      ],
+      "bytes": 4525213,
+      "sha256": "fae54789c2011c8db22b2176603f891d921c17dcaf60d3ccd4bf204b2dad852c"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/SRSF9.bed.gz",
+      "source_name": "SRSF9",
+      "canonical_rbps": [
+        "SRSF9"
+      ],
+      "bytes": 9021713,
+      "sha256": "23d35d5ac739233ad96ea31a9c3653282512ebab02e2aaca04ca00f1ea427728"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/STARPAP.bed.gz",
+      "source_name": "STARPAP",
+      "canonical_rbps": [
+        "TUT1"
+      ],
+      "bytes": 796162,
+      "sha256": "3c74dca1db46619429266ecd8cd22f9e090fb7d8faf210ec38febf9e41d65bbe"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/TAF15.bed.gz",
+      "source_name": "TAF15",
+      "canonical_rbps": [
+        "TAF15"
+      ],
+      "bytes": 1763508,
+      "sha256": "1cb79b8bf3167765fa2a658898c3856ddd267819086672c8945ebef09d461cb6"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/TARDBP.bed.gz",
+      "source_name": "TARDBP",
+      "canonical_rbps": [
+        "TARDBP"
+      ],
+      "bytes": 2816490,
+      "sha256": "1f32afe88c6cf27166dfe43a321ae4e44560f21b9507deb8e996236fd24bb709"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/TIA1.bed.gz",
+      "source_name": "TIA1",
+      "canonical_rbps": [
+        "TIA1"
+      ],
+      "bytes": 5105235,
+      "sha256": "d03f1a1b6517e02af144ac40e97e3b8121f94fd5e103d53427002c92a142c642"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/TRA2A.bed.gz",
+      "source_name": "TRA2A",
+      "canonical_rbps": [
+        "TRA2A"
+      ],
+      "bytes": 3425733,
+      "sha256": "8ca3c10e6135321ee8b5bbdb0ce6fb137e607366274c366ec5835654604b38b3"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/TRNAU1AP.bed.gz",
+      "source_name": "TRNAU1AP",
+      "canonical_rbps": [
+        "TRNAU1AP"
+      ],
+      "bytes": 9579712,
+      "sha256": "d86029e528615cd9bca54575cf51c3ff042235edcafc341a1eb1f71071953943"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/U2AF2.bed.gz",
+      "source_name": "U2AF2",
+      "canonical_rbps": [
+        "U2AF2"
+      ],
+      "bytes": 1238425,
+      "sha256": "ab465af7f37dc367b31bfe3cb171f932645ee5b2505ca164580f20540941d726"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/UNK.bed.gz",
+      "source_name": "UNK",
+      "canonical_rbps": [
+        "UNK"
+      ],
+      "bytes": 1705620,
+      "sha256": "bf69ade1d008d90ef096e82eec4ff5aafe8515b5278513c3550689807de3930d"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/YB1.bed.gz",
+      "source_name": "YB1",
+      "canonical_rbps": [
+        "YBX1"
+      ],
+      "bytes": 324438,
+      "sha256": "2c2ac448b31c478ed715cd24e16edc3970eafcc98ee91501bf55dc58f143d6b2"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/YBX2.bed.gz",
+      "source_name": "YBX2",
+      "canonical_rbps": [
+        "YBX2"
+      ],
+      "bytes": 429108,
+      "sha256": "cb1483a0af45384803c468e3caa12a42932dd4d061c7fb13659def66d82e4393"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ZC3H10.bed.gz",
+      "source_name": "ZC3H10",
+      "canonical_rbps": [
+        "ZC3H10"
+      ],
+      "bytes": 629913,
+      "sha256": "d8e88d4937088f8670b7ce2b48b99171605b4dbfec39f37bcc067c3fc1bf7cf8"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ZC3H14CONSTRUCT.bed.gz",
+      "source_name": "ZC3H14CONSTRUCT",
+      "canonical_rbps": [
+        "ZC3H14"
+      ],
+      "bytes": 2290720,
+      "sha256": "eb0cbbd628d3ea257468c0362061d6d122b97e1b550ac2ec5615144befe00feb"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ZCRB1.bed.gz",
+      "source_name": "ZCRB1",
+      "canonical_rbps": [
+        "ZCRB1"
+      ],
+      "bytes": 1581203,
+      "sha256": "265fe710545de37a21445c3ab70c047e8e92888b5ad2f3dee7efb27a7df8a8c9"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ZFP36.bed.gz",
+      "source_name": "ZFP36",
+      "canonical_rbps": [
+        "ZFP36"
+      ],
+      "bytes": 432120,
+      "sha256": "fe3cf28fdbe63ddcc8a185268272419071e4099a1399cab669c02c6a70a6a4d7"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ZNF326.bed.gz",
+      "source_name": "ZNF326",
+      "canonical_rbps": [
+        "ZNF326"
+      ],
+      "bytes": 808550,
+      "sha256": "c89884ecd16e9381f13d73b5e3718fa9bbf911016ea75a0b2c007f9556f562cd"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/ZNF638.bed.gz",
+      "source_name": "ZNF638",
+      "canonical_rbps": [
+        "ZNF638"
+      ],
+      "bytes": 851259,
+      "sha256": "d90bb477d836c1296fbd20185caf1203eb8629aab2af7fdac4305729cd77ac06"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/hnRNPLL.bed.gz",
+      "source_name": "hnRNPLL",
+      "canonical_rbps": [
+        "HNRNPLL"
+      ],
+      "bytes": 499041,
+      "sha256": "d9b0d10cc1fca53a1fd1690b381ef8494e2c2c08a3cbe408c2e131b36ac316b4"
+    },
+    {
+      "group": "ornament",
+      "path": "data/HS/sf3b4.bed.gz",
+      "source_name": "sf3b4",
+      "canonical_rbps": [
+        "SF3B4"
+      ],
+      "bytes": 309449,
+      "sha256": "b385882e7e5cb66b422935077336ffc58eb5af966b50f797216da0a94dce1633"
+    },
+    {
+      "group": "postar3",
+      "path": "data/human.txt",
+      "bytes": 4470359284,
+      "sha256": "b7c1c976fb34cd691a4773580fb36528225a1e848ea153a45780d94579859bff"
+    },
+    {
+      "group": "reference",
+      "path": "data/gencode.v44.annotation.gtf",
+      "bytes": 1568837472,
+      "sha256": "46fc6e733fc73b236ffa68b770c5ee0cedd998797107cb4691bd8ca5c104df16"
+    },
+    {
+      "group": "reference",
+      "path": "data/hg38.fa",
+      "bytes": 3273481150,
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    },
+    {
+      "group": "reference",
+      "path": "data/hg38.fa.fai",
+      "bytes": 19381,
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    }
+  ]
+}

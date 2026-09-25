@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rna-mod-pipeline"
+version = "1.0.3"
+description = "RNA-modification and RBP analysis pipeline for the QUB studentship"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "matplotlib>=3.7",
+  "networkx>=3.0",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "pyfaidx>=0.8",
+  "scipy>=1.10",
+]
+
+[project.urls]
+Repository = "https://github.com/QUB-Simpson-lab/rna_mod_pipeline"
+Issues = "https://github.com/QUB-Simpson-lab/rna_mod_pipeline/issues"
+
+[project.optional-dependencies]
+gui = [
+  "PySide6>=6.7,<7",
+]
+
+[project.scripts]
+rna-mod-gui = "rna_mod_pipeline.console:gui_main"
+rna-mod-audit = "rna_mod_pipeline.console:audit_main"
+rna-mod-doctor = "rna_mod_pipeline.console:doctor_main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
