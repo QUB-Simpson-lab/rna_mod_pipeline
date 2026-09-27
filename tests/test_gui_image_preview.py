@@ -115,7 +115,10 @@ class ImagePreviewTests(unittest.TestCase):
         viewer.set_image(image)
         with patch("rna_mod_pipeline.gui.image_preview.QDesktopServices.openUrl") as opened:
             viewer.open_button.click()
-        self.assertEqual(opened.call_args.args[0].toLocalFile(), str(image))
+        opened.assert_called_once()
+        url = opened.call_args.args[0]
+        self.assertTrue(url.isLocalFile())
+        self.assertEqual(Path(url.toLocalFile()), image)
 
     def page(self) -> ResultsPage:
         page = ResultsPage(self.root)

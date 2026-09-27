@@ -39,6 +39,11 @@ jobs:
             requirements-build-lock.txt
             requirements-lock.txt
             requirements-gui-lock.txt
+      - name: Install Linux GUI system dependency
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y libegl1
       - name: Install tested build tools
         run: python -m pip install --no-cache-dir -r requirements-build-lock.txt
       - name: Install constrained package and GUI
@@ -55,15 +60,15 @@ jobs:
           rna-mod-audit --help
           rna-mod-doctor --help
       - name: Run synthetic acceptance workflows
-        run: python scripts/prepare_acceptance_demo.py --workspace "../RNA synthetic acceptance" --run --skip-plots
+        run: python scripts/prepare_acceptance_demo.py --workspace "${{ runner.temp }}/RNA synthetic acceptance" --run --skip-plots
       - name: Check independently defined numerical answers
-        run: python scripts/check_acceptance_demo.py --workspace "../RNA synthetic acceptance" --skip-plots
+        run: python scripts/check_acceptance_demo.py --workspace "${{ runner.temp }}/RNA synthetic acceptance" --skip-plots
       - name: Preserve acceptance result
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: acceptance-${{ matrix.os }}-python-${{ matrix.python }}
-          path: ../RNA synthetic acceptance/acceptance_check.json
+          path: ${{ runner.temp }}/RNA synthetic acceptance/acceptance_check.json
           if-no-files-found: warn
 
   package:
